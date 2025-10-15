@@ -1,9 +1,21 @@
 id: dbb3bf7d4cbcc8d9
-createdAt: 2025-10-15T03:15:42.856Z
-updatedAt: 2025-10-15T03:15:42.856Z
-publishedAt: 2025-10-15T03:15:42.856Z
+createdAt: 2025-10-15T03:49:21.114Z
+updatedAt: 2025-10-15T03:49:21.114Z
+publishedAt: 2025-10-15T03:49:21.114Z
 isPublic: true
 locales:
+  en:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: Sponsors | Uptime Kuma - Thank You For Your Support!
+    description: A heartfelt thank you to the individuals and companies who sponsor
+      Uptime Kuma. Your support keeps our open-source monitoring tool alive and
+      thriving.
+    header:
+      sticky: true
   zh:
     backgroundColor: ""
     style:
@@ -12,6 +24,27 @@ locales:
       paddingX: normal
     title: 赞助商 | Uptime Kuma - 感谢您的支持！
     description: 衷心感谢赞助 Uptime Kuma 的个人和公司。您的支持让我们的开源监控工具保持活跃和蓬勃发展。
+    header:
+      sticky: true
+  zh-TW:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: 贊助者 | Uptime Kuma - 感謝您的支持！
+    description: 衷心感謝贊助 Uptime Kuma 的個人與公司。您的支持讓我們的開源監控工具保持活躍並蓬勃發展。
+    header:
+      sticky: true
+  ja:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: スポンサー | Uptime Kuma - ご支援ありがとうございます！
+    description: Uptime
+      Kumaをスポンサーしてくださっている個人および企業の皆様に心より感謝申し上げます。皆様のご支援が、私たちのオープンソース監視ツールを維持し、発展させる力となっています。
     header:
       sticky: true
 sections:
@@ -292,6 +325,27 @@ sectionIds:
   - 58c96007fa8ad7fa
 dataSource:
   a079909189bc9634:
+    en:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Uptime Kuma thrives because of you! Your generous support allows us to
+                  continue building, improving, and offering this powerful
+                  monitoring tool for free to everyone. You are what keeps us
+                  going!
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: "To Our Amazing Supporters: Thank You!"
+            style:
+              fontSize: '{"md":40}'
+              variant: h1
     zh:
       properties:
         9ajrz12ik7esfk1z:
@@ -310,7 +364,64 @@ dataSource:
             style:
               fontSize: '{"md":40}'
               variant: h1
+    zh-TW:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Uptime Kuma 因你們而蓬勃發展！是你們的慷慨支持，讓我們能夠持續建構、改進並向所有人免費提供這款強大的監控工具。你們就是我們前進的動力！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 致我們了不起的支持者：謝謝你們！
+            style:
+              fontSize: '{"md":40}'
+              variant: h1
+    ja:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Uptime
+                  Kumaは皆様のおかげで成長を続けています！皆様の寛大なご支援により、私たちはこの強力な監視ツールを継続的に構築・改善し、すべての人に無料で提供することができています。皆様こそが、私たちの原動力です！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 素晴らしいサポーターの皆様へ：ありがとうございます！
+            style:
+              fontSize: '{"md":40}'
+              variant: h1
   510667b34fa14f2b:
+    en:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: Become a Sponsor
+              url: https://github.com/sponsors/louislam
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
     zh:
       properties:
         b8x4m3n9kp7qtw5r:
@@ -331,7 +442,58 @@ dataSource:
               url: ""
         r8t5y6u7i1o2p3a4:
           value: 16
+    zh-TW:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 成為贊助者
+              url: https://github.com/sponsors/louislam
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+    ja:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: スポンサーになる
+              url: https://github.com/sponsors/louislam
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
   0e5fe165ba3c7f99:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Our Wall of Fame
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -343,7 +505,51 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 我們的榮譽牆
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 栄誉の壁
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
   748179d273d446ac:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: ""
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-end
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759204131040-9gxbxfmi5
+                type: text
+                text: We are incredibly proud to be supported by these outstanding individuals
+                  and organizations. Check them out!
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -365,7 +571,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: ""
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-end
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759204131040-9gxbxfmi5
+                type: text
+                text: 我們為能得到這些傑出的個人和組織的支持而感到無比自豪。快來看看他們！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: ""
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-end
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759204131040-9gxbxfmi5
+                type: text
+                text: 私たちは、これらの素晴らしい個人や組織からご支援をいただけることを大変誇りに思います。ぜひご覧ください！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   a7ea2f2a65d211dc:
+    en:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://uptime.kuma.pet/sponsors?v=6
+            mediaKitUrl: https://uptime.kuma.pet/sponsors?v=6
+            width: 3024
+            height: 1034
     zh:
       properties:
         7m5pz8nefl5j9hqq:
@@ -374,7 +630,47 @@ dataSource:
             mediaKitUrl: https://uptime.kuma.pet/sponsors?v=6
             width: 3024
             height: 1034
+    zh-TW:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://uptime.kuma.pet/sponsors?v=6
+            mediaKitUrl: https://uptime.kuma.pet/sponsors?v=6
+            width: 3024
+            height: 1034
+    ja:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://uptime.kuma.pet/sponsors?v=6
+            mediaKitUrl: https://uptime.kuma.pet/sponsors?v=6
+            width: 3024
+            height: 1034
   469c4ac987c6a29b:
+    en:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Join our community of distinguished sponsors and help keep Uptime Kuma
+                  free and open-source forever. Choose the platform that works
+                  best for you and become a part of our journey!
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Want to see your logo here?
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
     zh:
       properties:
         9ajrz12ik7esfk1z:
@@ -397,7 +693,74 @@ dataSource:
           value: center
         kyg0hdy5uqq4gc1o:
           value: center
+    zh-TW:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: 加入我們傑出的贊助者社群，幫助 Uptime Kuma 永遠保持免費和開源。選擇最適合您的平台，成為我們的一份子！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 想在這裡看到您的 Logo 嗎？
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+    ja:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: 素晴らしいスポンサーのコミュニティに参加し、Uptime
+                  Kumaが常に無料でオープンソースであり続けるためのご支援をお願いします。あなたに最適なプラットフォームを選んで、私たちの仲間になりましょう！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: あなたのロゴをここに掲載しませんか？
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
   9c374e3f2f113acf:
+    en:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: Sponsor via GitHub
+              url: https://github.com/sponsors/louislam
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: Support on OpenCollective
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: https://opencollective.com/uptime-kuma
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
     zh:
       properties:
         b8x4m3n9kp7qtw5r:
@@ -412,6 +775,50 @@ dataSource:
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: 支持 OpenCollective
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: https://opencollective.com/uptime-kuma
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
+    zh-TW:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 透過 GitHub 贊助
+              url: https://github.com/sponsors/louislam
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: 支持 OpenCollective
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: https://opencollective.com/uptime-kuma
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
+    ja:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: GitHubでスポンサーになる
+              url: https://github.com/sponsors/louislam
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: OpenCollectiveで支援する
               variant: outlined
               borderColor: common.white
               size: large

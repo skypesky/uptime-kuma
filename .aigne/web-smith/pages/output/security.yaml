@@ -1,9 +1,21 @@
 id: 7da1e0bf8fb853a2
-createdAt: 2025-10-15T03:15:42.851Z
-updatedAt: 2025-10-15T03:15:42.851Z
-publishedAt: 2025-10-15T03:15:42.851Z
+createdAt: 2025-10-15T03:49:21.106Z
+updatedAt: 2025-10-15T03:49:21.106Z
+publishedAt: 2025-10-15T03:49:21.106Z
 isPublic: true
 locales:
+  en:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: Uptime Kuma Security Policy | Vulnerability Reporting & Version Support
+    description: Review the official Uptime Kuma security policy. Learn how to
+      responsibly report security vulnerabilities and see supported version
+      information to keep your instance secure.
+    header:
+      sticky: true
   zh:
     backgroundColor: ""
     style:
@@ -12,6 +24,27 @@ locales:
       paddingX: normal
     title: Uptime Kuma 安全策略 | 漏洞报告与版本支持
     description: 查阅 Uptime Kuma 的官方安全策略。了解如何负责任地报告安全漏洞，并查看受支持的版本信息以确保您的实例安全。
+    header:
+      sticky: true
+  zh-TW:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: Uptime Kuma 安全政策 | 漏洞回報與版本支援
+    description: 查閱 Uptime Kuma 的官方安全政策。了解如何負責任地回報安全漏洞，並查看支援的版本資訊以確保您的執行個體安全。
+    header:
+      sticky: true
+  ja:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: Uptime Kuma セキュリティポリシー | 脆弱性の報告とバージョンサポート
+    description: Uptime
+      Kumaの公式セキュリティポリシーをご覧ください。セキュリティ脆弱性を責任を持って報告する方法を学び、サポートされているバージョン情報を確認して、インスタンスの安全を確保してください。
     header:
       sticky: true
 sections:
@@ -1104,6 +1137,27 @@ sectionIds:
   - b78e48cffd10c28f
 dataSource:
   a079909189bc9634:
+    en:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: We take the security of our project very seriously. If you discover a
+                  security vulnerability, please follow the guidelines on this
+                  page to report it. We appreciate your help in keeping Uptime
+                  Kuma secure.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Uptime Kuma Security Policy
+            style:
+              fontSize: '{"md":40}'
+              variant: h1
     zh:
       properties:
         9ajrz12ik7esfk1z:
@@ -1122,7 +1176,64 @@ dataSource:
             style:
               fontSize: '{"md":40}'
               variant: h1
+    zh-TW:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: 我們非常重視專案的安全性。如果您發現了安全漏洞，請遵循本頁面的指引進行回報。我們感謝您的協助，共同維護 Uptime Kuma 的安全。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Uptime Kuma 安全政策
+            style:
+              fontSize: '{"md":40}'
+              variant: h1
+    ja:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: 私たちはプロジェクトのセキュリティを非常に重視しています。セキュリティ脆弱性を発見した場合は、このページの指示に従って報告してください。Uptime
+                  Kumaの安全性を共に維持するためのご協力に感謝いたします。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Uptime Kuma セキュリティポリシー
+            style:
+              fontSize: '{"md":40}'
+              variant: h1
   510667b34fa14f2b:
+    en:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: Report a Vulnerability
+              url: https://github.com/louislam/uptime-kuma/security/advisories/new
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
     zh:
       properties:
         b8x4m3n9kp7qtw5r:
@@ -1143,7 +1254,58 @@ dataSource:
               url: ""
         r8t5y6u7i1o2p3a4:
           value: 16
+    zh-TW:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 回報漏洞
+              url: https://github.com/louislam/uptime-kuma/security/advisories/new
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+    ja:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 脆弱性を報告
+              url: https://github.com/louislam/uptime-kuma/security/advisories/new
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
   11087eae134dbead:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        gs1rn5jmxfvpxptx:
+          value:
+            text: How to Report a Vulnerability
+            style:
+              variant: h2
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1155,7 +1317,53 @@ dataSource:
             text: 如何报告漏洞
             style:
               variant: h2
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 如何回報漏洞
+            style:
+              variant: h2
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 脆弱性の報告方法
+            style:
+              variant: h2
   dd90e66ccace6e7d:
+    en:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: This is the most important step! Please report issues privately through
+                  GitHub's official security channel to protect all users. Do
+                  not discuss them in the public issue tracker.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: "Step 1: Submit via GitHub Security Advisories"
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
     zh:
       properties:
         9ajrz12ik7esfk1z:
@@ -1178,7 +1386,73 @@ dataSource:
           value: center
         kyg0hdy5uqq4gc1o:
           value: center
+    zh-TW:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: 這是最重要的一步！請透過 GitHub 的官方安全管道私下回報問題，以保護所有使用者。不要在公開的議題追蹤器中討論。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 第一步：透過 GitHub Security Advisories 提交
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+    ja:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: これが最も重要なステップです！すべてのユーザーを保護するため、GitHubの公式セキュリティチャネルを通じて非公開で問題を報告してください。公開されている課題トラッカーで議論しないでください。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: ステップ1：GitHub Security Advisoriesを通じて提出
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
   b1c97fc76c23921f:
+    en:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: Report via GitHub Advisories
+              url: https://github.com/louislam/uptime-kuma/security/advisories/new
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
     zh:
       properties:
         b8x4m3n9kp7qtw5r:
@@ -1201,7 +1475,75 @@ dataSource:
           value: 16
         v5utpm7bu9yvdpnq:
           value: center
+    zh-TW:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 前往 GitHub Advisories 回報
+              url: https://github.com/louislam/uptime-kuma/security/advisories/new
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
+    ja:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: GitHub Advisoriesで報告する
+              url: https://github.com/louislam/uptime-kuma/security/advisories/new
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
   eb5ba1631809317f:
+    en:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: GitHub Advisories does not send notifications, so I might miss your
+                  report. It is very important that you also create an empty
+                  security issue to notify me!
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: "Step 2: Create an Empty Security Issue as a Reminder"
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
     zh:
       properties:
         9ajrz12ik7esfk1z:
@@ -1224,7 +1566,74 @@ dataSource:
           value: center
         kyg0hdy5uqq4gc1o:
           value: center
+    zh-TW:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: GitHub Advisories 不會主動傳送通知，我可能會錯過您的回報。請額外建立一個空的安全性議題來提醒我，這非常重要！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 第二步：建立一個空的安全性議題以作提醒
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+    ja:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: GitHub
+                  Advisoriesは能動的に通知を送信しないため、あなたの報告を見逃す可能性があります。私に通知するために、追加で空のセキュリティIssueを作成してください。これは非常に重要です！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: ステップ2：通知用に空のセキュリティIssueを作成
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
   408bcedfffa95ed2:
+    en:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: Create a Reminder Issue
+              url: https://github.com/louislam/uptime-kuma/issues/new?assignees=&labels=help&template=security.md
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
     zh:
       properties:
         b8x4m3n9kp7qtw5r:
@@ -1247,7 +1656,62 @@ dataSource:
           value: 16
         v5utpm7bu9yvdpnq:
           value: center
+    zh-TW:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 建立提醒議題
+              url: https://github.com/louislam/uptime-kuma/issues/new?assignees=&labels=help&template=security.md
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
+    ja:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 通知用のIssueを作成
+              url: https://github.com/louislam/uptime-kuma/issues/new?assignees=&labels=help&template=security.md
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
   237cc3775293af85:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: We Do Not Accept Third-Party Bug Bounty Platforms
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -1259,7 +1723,54 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 我們不接受第三方漏洞賞金平台
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: サードパーティの脆弱性報奨金プラットフォームは受け付けていません
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
   f960ca489c3d281d:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: ""
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-end
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759204131040-9gxbxfmi5
+                type: text
+                text: At this time, I do not accept reports from other bug bounty platforms. In
+                  the past, people have attempted to send phishing links this
+                  way. To minimize my personal risk, please report exclusively
+                  through GitHub Advisories. I will ignore all emails from
+                  third-party bug bounty platforms.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -1282,7 +1793,62 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: ""
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-end
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759204131040-9gxbxfmi5
+                type: text
+                text: 此刻，我不會接受來自其他漏洞賞金平台的回報。過去曾有人試圖透過這種方式傳送網路釣魚連結，為了將我個人的風險降至最低，請務必僅透過 GitHub
+                  Advisories 回報。我將忽略所有來自第三方漏洞賞金平台的郵件。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: ""
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-end
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759204131040-9gxbxfmi5
+                type: text
+                text: 現在、他の脆弱性報奨金プラットフォームからの報告は受け付けていません。過去にこの方法でフィッシングリンクを送信しようとする試みがあったため、私個人のリスクを最小限に抑えるためにも、必ずGitHub
+                  Advisoriesを通じてのみ報告してください。サードパーティの脆弱性報奨金プラットフォームからのメールはすべて無視します。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   dd19747480bbfb01:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Supported Versions and Tags
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -1294,7 +1860,50 @@ dataSource:
           value: center
         kyg0hdy5uqq4gc1o:
           value: center
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 支援的版本和標籤
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: サポートされているバージョンとタグ
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
   188bf83f2774511b:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: "1"
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Supported
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1316,7 +1925,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: "1"
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 支援
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: "1"
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: サポート対象
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   9a4665f91027d3f7:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:check-circle-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -1325,7 +1984,44 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:check-circle-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:check-circle-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   3d914af2157737bc:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 1-debian
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Supported
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1347,7 +2043,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 1-debian
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 支援
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 1-debian
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: サポート対象
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   834e8f1413211851:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:check-circle-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -1356,7 +2102,44 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:check-circle-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:check-circle-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   824549dfc765923c:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: latest
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Supported
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1378,7 +2161,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: latest
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 支援
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: latest
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: サポート対象
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   75224870c5e4c765:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:check-circle-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -1387,7 +2220,44 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:check-circle-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:check-circle-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   dd7071b2646afbc7:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: debian
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Supported
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1409,7 +2279,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: debian
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 支援
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: debian
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: サポート対象
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   a8774863f186f747:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:check-circle-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -1418,7 +2338,44 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:check-circle-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:check-circle-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   0beeccea01a7cc4a:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 1-alpine
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Deprecated
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1440,7 +2397,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 1-alpine
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 已棄用
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 1-alpine
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 非推奨
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   94da6924927ba013:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:alert-triangle
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -1449,7 +2456,44 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:alert-triangle
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:alert-triangle
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   9e6c5ed1b0915272:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: alpine
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Deprecated
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1471,7 +2515,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: alpine
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 已棄用
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: alpine
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 非推奨
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   84e23b7055620ef0:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:alert-triangle
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -1480,7 +2574,44 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:alert-triangle
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:alert-triangle
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   c104a4ae1a53304a:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: All Other Tags
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Unsupported
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1502,7 +2633,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 所有其他標籤
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 不支援
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: その他すべてのタグ
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: サポート対象外
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   0bd7a4361f2e0ab8:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:x-circle
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -1511,7 +2692,44 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:x-circle
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:x-circle
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   12e0b7c7c1352338:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Stay Updated
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: For security, please always use or upgrade to the latest version.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1533,8 +2751,74 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 保持更新
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 為了安全起見，請始終使用或升級到最新版本。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 最新の状態を維持
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: セキュリティのため、常に最新バージョンを使用またはアップグレードしてください。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   a18785ea3241405b:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:arrow-up-circle
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:arrow-up-circle
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:arrow-up-circle
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
       properties:
         5ek4m0kw9cu0ndns:
           value: lucide:arrow-up-circle

@@ -1,9 +1,22 @@
 id: 423f8449a3d5581e
-createdAt: 2025-10-15T03:15:42.829Z
-updatedAt: 2025-10-15T03:15:42.829Z
-publishedAt: 2025-10-15T03:15:42.829Z
+createdAt: 2025-10-15T03:49:21.065Z
+updatedAt: 2025-10-15T03:49:21.065Z
+publishedAt: 2025-10-15T03:49:21.065Z
 isPublic: true
 locales:
+  en:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: Join the Uptime Kuma Community | Ask, Contribute & Connect
+    description: Become part of the Uptime Kuma community! Ask questions on our
+      Subreddit, report bugs or request features on GitHub, and learn how to
+      contribute through pull requests, testing, or translations.
+    image: ""
+    header:
+      sticky: true
   zh:
     backgroundColor: ""
     style:
@@ -13,6 +26,30 @@ locales:
     title: 加入 Uptime Kuma 社区 | 提问、贡献与交流
     description: 成为 Uptime Kuma 社区的一员！在我们的 Subreddit 提问，在 GitHub
       上报告错误或请求功能，并了解如何通过拉取请求、测试或翻译做出贡献。
+    image: ""
+    header:
+      sticky: true
+  zh-TW:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: 加入 Uptime Kuma 社群 | 提問、貢獻與交流
+    description: 成為 Uptime Kuma 社群的一員！在我們的 Subreddit 提問，在 GitHub
+      上回報錯誤或請求新功能，並了解如何透過拉取請求、測試或翻譯做出貢獻。
+    image: ""
+    header:
+      sticky: true
+  ja:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: Uptime Kumaコミュニティに参加 | 質問、貢献、交流
+    description: Uptime
+      Kumaコミュニティの一員になりましょう！サブレディットで質問したり、GitHubでバグ報告や機能リクエストをしたり、プルリクエストやテスト、翻訳を通じて貢献する方法を学びましょう。
     image: ""
     header:
       sticky: true
@@ -747,6 +784,26 @@ sectionIds:
   - d05b83249b48a081
 dataSource:
   a079909189bc9634:
+    en:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Whether you want to ask questions, report bugs, or contribute code or
+                  translations, you are warmly welcome! Every contribution you
+                  make helps Uptime Kuma get better.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Join Us in Building Uptime Kuma!
+            style:
+              fontSize: '{"md":40}'
+              variant: h1
     zh:
       properties:
         9ajrz12ik7esfk1z:
@@ -765,7 +822,63 @@ dataSource:
             style:
               fontSize: '{"md":40}'
               variant: h1
+    zh-TW:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: 無論您是想提問、回報錯誤，還是想貢獻程式碼或翻譯，我們都熱烈歡迎您！您的每一次參與都讓 Uptime Kuma 變得更好。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 加入我們，共同打造 Uptime Kuma！
+            style:
+              fontSize: '{"md":40}'
+              variant: h1
+    ja:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: 質問、バグ報告、コードや翻訳での貢献など、どんな形でも大歓迎です！あなたの参加がUptime Kumaをより良くします。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Uptime Kumaを一緒に作りましょう！
+            style:
+              fontSize: '{"md":40}'
+              variant: h1
   510667b34fa14f2b:
+    en:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: Go to GitHub Issues
+              url: https://github.com/louislam/uptime-kuma/issues
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: Visit the Reddit Community
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: https://www.reddit.com/r/UptimeKuma/
+        r8t5y6u7i1o2p3a4:
+          value: 16
     zh:
       properties:
         b8x4m3n9kp7qtw5r:
@@ -786,7 +899,58 @@ dataSource:
               url: https://www.reddit.com/r/UptimeKuma/
         r8t5y6u7i1o2p3a4:
           value: 16
+    zh-TW:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 前往 GitHub 討論區
+              url: https://github.com/louislam/uptime-kuma/issues
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: 前往 Reddit 社群
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: https://www.reddit.com/r/UptimeKuma/
+        r8t5y6u7i1o2p3a4:
+          value: 16
+    ja:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: GitHub Issuesへ
+              url: https://github.com/louislam/uptime-kuma/issues
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: Redditコミュニティにアクセス
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: https://www.reddit.com/r/UptimeKuma/
+        r8t5y6u7i1o2p3a4:
+          value: 16
   1817a56164d329c8:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Discover How You Can Contribute
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -798,7 +962,51 @@ dataSource:
           value: center
         kyg0hdy5uqq4gc1o:
           value: center
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 探索您的貢獻方式
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: あなたに合った貢献方法を見つけよう
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
   8a0319c7be20285c:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Report Bugs & Suggest Features
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Found a problem or have a great idea? Let us know on GitHub Issues—it's
+                  the best place to track and discuss technical matters.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -820,7 +1028,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 回報錯誤與建議功能
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 發現問題或有好點子嗎？在 GitHub Issues 上告訴我們，這是追蹤和討論技術問題的最佳場所。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: バグ報告と機能提案
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 問題を発見したり、良いアイデアが浮かんだりしましたか？GitHub Issuesで教えてください。技術的な問題を追跡し、議論するのに最適な場所です。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   3ee66b593de1e036:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:bug
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -829,7 +1087,46 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:bug
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:bug
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   051f5382aaa30930:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Contribute Code
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Ready to contribute code? We'd love to have you! Please read our
+                  contribution guidelines first to ensure your submission can be
+                  merged smoothly.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -851,7 +1148,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 貢獻程式碼
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 準備好貢獻程式碼了嗎？我們非常歡迎！請先閱讀我們的貢獻指南，以確保您的提交能順利合併。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: コードで貢献
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: コードで貢献する準備はできましたか？私たちはいつでも歓迎します！スムーズなマージのために、まずは貢献ガイドラインをお読みください。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   8aee431fd7b453d4:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:git-pull-request-draft
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -860,7 +1207,45 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:git-pull-request-draft
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:git-pull-request-draft
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   6cf87c8dd697af94:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Help Us Test
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Help us identify potential issues and ensure the stability of every
+                  release by testing the latest beta versions and pull requests.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -882,7 +1267,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 協助我們測試
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 透過測試最新的 Beta 版本和拉取請求，協助我們發現潛在問題，確保每次發布的穩定性。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: テストにご協力ください
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 最新のベータ版やプルリクエストをテストして、潜在的な問題を発見し、各リリースの安定性を確保する手助けをしてください。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   835229da4540f842:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:test-tube-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -891,7 +1326,46 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:test-tube-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:test-tube-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   6c7d6356a9593b08:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Contribute Translations
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Help us bring Uptime Kuma to users worldwide! You can easily contribute
+                  translations for your native language through our Weblate
+                  platform.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -913,7 +1387,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 參與翻譯
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 協助我們將 Uptime Kuma 帶給全世界的使用者！透過 Weblate 平台，您可以輕鬆地為您的母語貢獻翻譯。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 翻訳に参加
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Uptime Kumaを世界中のユーザーに届けましょう！Weblateプラットフォームを通じて、あなたの母国語の翻訳に簡単に貢献できます。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   3146007f1ae8e627:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:languages
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -922,7 +1446,34 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:languages
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:languages
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   3fcd2113b474335b:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Join Our Community Hubs
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -934,7 +1485,51 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 加入我們的社群中心
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: コミュニティハブに参加しよう
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
   9a522e0551bad6e3:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: GitHub for Technical Discussions
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: Dive deep into bugs, new features, and technical implementations. This is
+                  the core hub where we solve problems.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -956,7 +1551,61 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: GitHub 技術討論區
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: 深入探討錯誤、新功能和技術實作。這裡是我們解決問題的核心地帶。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: GitHub 技術ディスカッション
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: バグ、新機能、技術的な実装について深く議論します。ここは問題解決の中心地です。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
   a4df2429c413e3ff:
+    en:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://placehold.co/800x450?text=GitHub+Issues
+            mediaKitUrl: https://placehold.co/800x450?text=GitHub+Issues
+            width: 1270
+            height: 520
+        70d4dvbqgjal3z6j:
+          value: ""
+        jjv0hvr8wrixt1f3:
+          value: 1
     zh:
       properties:
         7m5pz8nefl5j9hqq:
@@ -969,7 +1618,53 @@ dataSource:
           value: ""
         jjv0hvr8wrixt1f3:
           value: 1
+    zh-TW:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://placehold.co/800x450?text=GitHub+Issues
+            mediaKitUrl: https://placehold.co/800x450?text=GitHub+Issues
+            width: 1270
+            height: 520
+        70d4dvbqgjal3z6j:
+          value: ""
+        jjv0hvr8wrixt1f3:
+          value: 1
+    ja:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://placehold.co/800x450?text=GitHub+Issues
+            mediaKitUrl: https://placehold.co/800x450?text=GitHub+Issues
+            width: 1270
+            height: 520
+        70d4dvbqgjal3z6j:
+          value: ""
+        jjv0hvr8wrixt1f3:
+          value: 1
   0108e6f4e6aa3695:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Reddit for Casual Chats
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: Share your monitoring setup, ask general questions, or just chat with
+                  fellow Kuma users from around the world.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -991,7 +1686,61 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Reddit 休閒交流區
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: 分享您的監控設定、提出一般性問題或與來自世界各地的 Kuma 使用者閒聊。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Reddit カジュアル交流スペース
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: あなたの監視設定を共有したり、一般的な質問をしたり、世界中のKumaユーザーと雑談したりしましょう。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
   70ae10de7d17ccd7:
+    en:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://placehold.co/800x450?text=r/UptimeKuma
+            mediaKitUrl: https://placehold.co/800x450?text=r/UptimeKuma
+            width: 1270
+            height: 520
+        70d4dvbqgjal3z6j:
+          value: ""
+        jjv0hvr8wrixt1f3:
+          value: 1
     zh:
       properties:
         7m5pz8nefl5j9hqq:
@@ -1004,7 +1753,54 @@ dataSource:
           value: ""
         jjv0hvr8wrixt1f3:
           value: 1
+    zh-TW:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://placehold.co/800x450?text=r/UptimeKuma
+            mediaKitUrl: https://placehold.co/800x450?text=r/UptimeKuma
+            width: 1270
+            height: 520
+        70d4dvbqgjal3z6j:
+          value: ""
+        jjv0hvr8wrixt1f3:
+          value: 1
+    ja:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://placehold.co/800x450?text=r/UptimeKuma
+            mediaKitUrl: https://placehold.co/800x450?text=r/UptimeKuma
+            width: 1270
+            height: 520
+        70d4dvbqgjal3z6j:
+          value: ""
+        jjv0hvr8wrixt1f3:
+          value: 1
   80e5a618e3831de8:
+    en:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Every contribution you make is vital. Visit our GitHub repository now to
+                  begin your contribution journey!
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Ready to Get Started?
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
     zh:
       properties:
         9ajrz12ik7esfk1z:
@@ -1027,7 +1823,73 @@ dataSource:
           value: center
         kyg0hdy5uqq4gc1o:
           value: center
+    zh-TW:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: 您的每一次貢獻都至關重要。立即前往我們的 GitHub 儲存庫，開啟您的貢獻之旅！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 準備好開始了嗎？
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+    ja:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: あなたのすべての貢献が重要です。今すぐGitHubリポジトリにアクセスして、貢献の旅を始めましょう！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 始める準備はできましたか？
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
   3d11487d864f2ba6:
+    en:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: Visit the GitHub Repository
+              url: https://github.com/louislam/uptime-kuma
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
     zh:
       properties:
         b8x4m3n9kp7qtw5r:
@@ -1035,6 +1897,50 @@ dataSource:
             - id: btn-default-1
               type: link
               text: 访问 GitHub 仓库
+              url: https://github.com/louislam/uptime-kuma
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
+    zh-TW:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 前往 GitHub 儲存庫
+              url: https://github.com/louislam/uptime-kuma
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
+    ja:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: GitHubリポジトリにアクセス
               url: https://github.com/louislam/uptime-kuma
               variant: contained
               size: large

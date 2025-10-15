@@ -1,9 +1,22 @@
 id: 8d5887e9ab6a37a8
-createdAt: 2025-10-15T03:15:42.849Z
-updatedAt: 2025-10-15T03:15:42.849Z
-publishedAt: 2025-10-15T03:15:42.849Z
+createdAt: 2025-10-15T03:49:21.099Z
+updatedAt: 2025-10-15T03:49:21.099Z
+publishedAt: 2025-10-15T03:49:21.099Z
 isPublic: true
 locales:
+  en:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: Uptime Kuma Installation Guide | Docker & Non-Docker Environments
+    description: Easily install Uptime Kuma with our detailed, step-by-step guide.
+      Installation instructions are provided for both Docker (recommended) and
+      non-Docker environments, including system requirements and background
+      service setup.
+    header:
+      sticky: true
   zh:
     backgroundColor: ""
     style:
@@ -12,6 +25,27 @@ locales:
       paddingX: normal
     title: Uptime Kuma 安装指南 | Docker 与非 Docker 环境
     description: 按照我们详尽的分步指南，轻松安装 Uptime Kuma。提供 Docker（推荐）和非 Docker 环境的安装说明，包括系统要求和后台服务设置。
+    header:
+      sticky: true
+  zh-TW:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: Uptime Kuma 安裝指南 | Docker 與非 Docker 環境
+    description: 依照我們詳盡的逐步指南，輕鬆安裝 Uptime Kuma。提供 Docker（推薦）和非 Docker 環境的安裝說明，包含系統需求和背景服務設定。
+    header:
+      sticky: true
+  ja:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: Uptime Kuma インストールガイド | Docker & 非Docker環境
+    description: 詳細なステップバイステップガイドに従って、Uptime
+      Kumaを簡単にインストールしましょう。Docker（推奨）と非Docker環境の両方のインストール手順を提供し、システム要件やバックグラウンドサービスの設定についても説明します。
     header:
       sticky: true
 sections:
@@ -551,6 +585,26 @@ sectionIds:
   - d56d9e831889abb5
 dataSource:
   a079909189bc9634:
+    en:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Whether you prefer the convenience of Docker or a native installation, we
+                  have clear guides for you. Start monitoring your services in
+                  just a few minutes!
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Get Uptime Kuma Up and Running Easily
+            style:
+              fontSize: '{"md":40}'
+              variant: h1
     zh:
       properties:
         9ajrz12ik7esfk1z:
@@ -569,7 +623,54 @@ dataSource:
             style:
               fontSize: '{"md":40}'
               variant: h1
+    zh-TW:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: 無論您偏好 Docker 的便利，還是希望進行原生安裝，我們都為您準備了清晰的指南。只需幾分鐘，即可開始監控您的服務！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 輕鬆啟動並執行 Uptime Kuma
+            style:
+              fontSize: '{"md":40}'
+              variant: h1
+    ja:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Dockerの利便性を好む方でも、ネイティブインストールを希望する方でも、分かりやすいガイドをご用意しました。わずか数分で、サービスの監視を開始できます！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Uptime Kumaを簡単に起動して実行
+            style:
+              fontSize: '{"md":40}'
+              variant: h1
   11087eae134dbead:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Docker Installation (Recommended)
+            style:
+              variant: h2
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -581,7 +682,53 @@ dataSource:
             text: Docker 安装（推荐）
             style:
               variant: h2
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Docker 安裝（推薦）
+            style:
+              variant: h2
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Dockerでのインストール（推奨）
+            style:
+              variant: h2
   5ed5bb1a180d1e5e:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: The Fastest and Easiest Way
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: Launch Uptime Kuma with a single Docker command. This is our recommended
+                  method as it bundles all dependencies, ensuring a consistent
+                  environment and rapid deployment. After running, access it in
+                  your browser at http://localhost:3001.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -605,7 +752,64 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 最快、最簡單的方式
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: 只需一行指令，即可透過 Docker 啟動 Uptime
+                  Kuma。這是我們推薦的方法，因為它能將所有依賴項打包，確保環境一致、部署迅速。執行後，在瀏覽器中造訪
+                  http://localhost:3001 即可。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 最も速く、簡単な方法
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: たった1行のコマンドで、Dockerを使ってUptime
+                  Kumaを起動できます。これは、すべての依存関係をパッケージ化し、一貫した環境と迅速なデプロイを保証するため、私たちがお勧めする方法です。実行後、ブラウザで
+                  http://localhost:3001 にアクセスしてください。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
   dd78c3458b1c6d5b:
+    en:
+      properties:
+        a7frn5jmx5vpxpt3:
+          value: docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data
+            --name uptime-kuma louislam/uptime-kuma:1
+        b2jrz12ik7esf93z:
+          value: bash
+        d8hvf7cxz93jk5p:
+          value: 1rem
+        qvxiyadgn5bj6oq8:
+          value: false
     zh:
       properties:
         a7frn5jmx5vpxpt3:
@@ -617,7 +821,40 @@ dataSource:
           value: 1rem
         qvxiyadgn5bj6oq8:
           value: false
+    zh-TW:
+      properties:
+        a7frn5jmx5vpxpt3:
+          value: docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data
+            --name uptime-kuma louislam/uptime-kuma:1
+        b2jrz12ik7esf93z:
+          value: bash
+        d8hvf7cxz93jk5p:
+          value: 1rem
+        qvxiyadgn5bj6oq8:
+          value: false
+    ja:
+      properties:
+        a7frn5jmx5vpxpt3:
+          value: docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data
+            --name uptime-kuma louislam/uptime-kuma:1
+        b2jrz12ik7esf93z:
+          value: bash
+        d8hvf7cxz93jk5p:
+          value: 1rem
+        qvxiyadgn5bj6oq8:
+          value: false
   10c868964f4822ae:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Non-Docker Environment Installation
+            style:
+              variant: h2
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -629,7 +866,52 @@ dataSource:
             text: 非 Docker 环境安装
             style:
               variant: h2
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 非 Docker 環境安裝
+            style:
+              variant: h2
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 非Docker環境でのインストール
+            style:
+              variant: h2
   d6415ec1d624285f:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: "Step 1: Prerequisites and System Requirements"
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Before you begin, ensure your system has Node.js (18+), npm (9+), Git, and
+                  pm2 for running it in the background. These are essential for
+                  Uptime Kuma to run smoothly.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -652,7 +934,60 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 第一步：準備工作與系統需求
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 在開始之前，請確保您的系統已安裝 Node.js (18+)、npm 9+、Git，以及用於背景執行的 pm2。這些是保證 Uptime Kuma
+                  順利運行的基礎。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: ステップ1：準備とシステム要件
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 開始する前に、お使いのシステムにNode.js (18+)、npm
+                  9+、Git、そしてバックグラウンドで実行するためのpm2がインストールされていることを確認してください。これらはUptime
+                  Kumaがスムーズに動作するための基礎となります。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   c2c0c505651f861a:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:clipboard-check
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -661,7 +996,46 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:clipboard-check
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:clipboard-check
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   fc089fe336677523:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: "Step 2: Execute Installation Commands"
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: Everything is ready! Now, open your terminal and execute the following
+                  commands in order to complete the installation and start
+                  Uptime Kuma.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -683,7 +1057,71 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 第二步：執行安裝指令
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: 萬事俱備！現在，開啟您的終端機，依序執行以下指令，即可完成安裝並啟動 Uptime Kuma。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: ステップ2：インストールコマンドの実行
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: 準備は万端です！さあ、ターミナルを開き、以下のコマンドを順番に実行して、Uptime Kumaのインストールを完了し、起動しましょう。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
   7134d2bc2ec175ad:
+    en:
+      properties:
+        a7frn5jmx5vpxpt3:
+          value: |-
+            # 1. Clone the project repository
+            git clone https://github.com/louislam/uptime-kuma.git
+
+            # 2. Change into the project directory
+            cd uptime-kuma
+
+            # 3. Install dependencies
+            npm run setup
+
+            # 4. Start the app in the background using PM2
+            pm install pm2 -g && pm2 install pm2-logrotate
+            pm start server/server.js --name uptime-kuma
+        b2jrz12ik7esf93z:
+          value: bash
+        d8hvf7cxz93jk5p:
+          value: 1rem
+        qvxiyadgn5bj6oq8:
+          value: false
     zh:
       properties:
         a7frn5jmx5vpxpt3:
@@ -706,7 +1144,65 @@ dataSource:
           value: 1rem
         qvxiyadgn5bj6oq8:
           value: false
+    zh-TW:
+      properties:
+        a7frn5jmx5vpxpt3:
+          value: |-
+            # 1. 複製專案儲存庫
+            git clone https://github.com/louislam/uptime-kuma.git
+
+            # 2. 進入專案目錄
+            cd uptime-kuma
+
+            # 3. 安裝依賴項
+            npm run setup
+
+            # 4. 使用 PM2 在背景啟動應用程式
+            pm install pm2 -g && pm2 install pm2-logrotate
+            pm start server/server.js --name uptime-kuma
+        b2jrz12ik7esf93z:
+          value: bash
+        d8hvf7cxz93jk5p:
+          value: 1rem
+        qvxiyadgn5bj6oq8:
+          value: false
+    ja:
+      properties:
+        a7frn5jmx5vpxpt3:
+          value: |-
+            # 1. プロジェクトリポジトリをクローン
+            git clone https://github.com/louislam/uptime-kuma.git
+
+            # 2. プロジェクトディレクトリへ移動
+            cd uptime-kuma
+
+            # 3. 依存関係をインストール
+            npm run setup
+
+            # 4. PM2を使い、バックグラウンドでアプリを起動
+            pm install pm2 -g && pm2 install pm2-logrotate
+            pm start server/server.js --name uptime-kuma
+        b2jrz12ik7esf93z:
+          value: bash
+        d8hvf7cxz93jk5p:
+          value: 1rem
+        qvxiyadgn5bj6oq8:
+          value: false
   69c7dd4036e9708e:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Advanced Operations and Next Steps
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        9ajrz12ik7esfk1z:
+          value:
+            list: []
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -721,7 +1217,65 @@ dataSource:
         9ajrz12ik7esfk1z:
           value:
             list: []
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 進階操作與後續步驟
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        9ajrz12ik7esfk1z:
+          value:
+            list: []
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 高度な操作と次のステップ
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        9ajrz12ik7esfk1z:
+          value:
+            list: []
   bb070bd6d4642bf3:
+    en:
+      properties:
+        4221qi1bxy322mf4:
+          value:
+            - title: How do I perform an advanced installation or use a reverse proxy?
+              answer: Absolutely! For more complex setups, such as configuring a reverse
+                proxy, we have prepared detailed wiki guides. Please visit our
+                GitHub Wiki page for complete instructions.
+            - title: How do I update my Uptime Kuma instance?
+              answer: Keeping up-to-date is very simple! We also provide detailed update
+                guides on the Wiki to ensure your upgrade process is smooth and
+                hassle-free.
+            - title: Installation successful! What's next?
+              answer: That's great! Now it's time to get creative. Start by adding your first
+                monitor, configuring notification channels, and designing a
+                beautiful status page. Feel free to explore all the features!
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
     zh:
       properties:
         4221qi1bxy322mf4:
@@ -746,7 +1300,79 @@ dataSource:
               answer: ""
             - title: ""
               answer: ""
+    zh-TW:
+      properties:
+        4221qi1bxy322mf4:
+          value:
+            - title: 如何進行進階安裝或使用反向代理？
+              answer: 當然可以！對於更複雜的設定，例如設定反向代理，我們準備了詳細的維基指南。請造訪我們的 GitHub Wiki 頁面尋找完整說明。
+            - title: 如何更新我的 Uptime Kuma 執行個體？
+              answer: 保持最新版本非常簡單！我們同樣在 Wiki 上提供了詳細的更新指南，確保您的升級過程順暢無憂。
+            - title: 安裝成功了！接下來該做什麼？
+              answer: 太棒了！現在是時候發揮創意了。立即開始新增您的第一個監控項目，設定通知管道，並設計一個漂亮的狀態頁面吧！盡情探索所有功能！
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+    ja:
+      properties:
+        4221qi1bxy322mf4:
+          value:
+            - title: 高度なインストールやリバースプロキシの使用方法は？
+              answer: もちろんです！リバースプロキシの設定など、より複雑なセットアップについては、詳細なWikiガイドを用意しています。完全な手順については、GitHubのWikiページをご覧ください。
+            - title: Uptime Kumaのインスタンスを更新するにはどうすればよいですか？
+              answer: 最新バージョンへの更新は非常に簡単です！Wikiに詳細な更新ガイドも用意しており、スムーズなアップグレードプロセスを保証します。
+            - title: インストールが成功しました！次は何をすればよいですか？
+              answer: 素晴らしいです！さあ、創造力を発揮しましょう。最初のモニターを追加し、通知チャンネルを設定し、美しいステータスページをデザインしてみてください！すべての機能を存分にお楽しみください！
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
   db2d6e57316f086b:
+    en:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Join our vibrant community! Whether you've run into a problem or have a
+                  brilliant new feature idea, we welcome you to connect with us
+                  on GitHub.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Need Help or Want to Contribute?
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
     zh:
       properties:
         9ajrz12ik7esfk1z:
@@ -769,7 +1395,73 @@ dataSource:
           value: center
         kyg0hdy5uqq4gc1o:
           value: center
+    zh-TW:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: 加入我們充滿活力的社群！無論您是遇到了問題，還是有絕佳的新功能點子，我們都歡迎您在 GitHub 上與我們交流。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 需要協助或想參與貢獻？
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+    ja:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: 活気ある私たちのコミュニティに参加しましょう！問題に直面した場合でも、素晴らしい新機能のアイデアがある場合でも、GitHubでの交流を歓迎します。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: ヘルプが必要ですか？貢献に興味がありますか？
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
   06080d017bac5b6d:
+    en:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: Go to the Community Page
+              url: link:///community
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
     zh:
       properties:
         b8x4m3n9kp7qtw5r:
@@ -777,6 +1469,50 @@ dataSource:
             - id: btn-default-1
               type: link
               text: 前往社区页面
+              url: link:///community
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
+    zh-TW:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 前往社群頁面
+              url: link:///community
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
+    ja:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: コミュニティページへ
               url: link:///community
               variant: contained
               size: large

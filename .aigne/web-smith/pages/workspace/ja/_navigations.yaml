@@ -1,0 +1,28 @@
+- path: /home
+  navigation:
+    title: ホーム
+    description: ホームページに戻る
+- path: /features
+  navigation:
+    title: 機能
+    description: すべての監視機能を見る
+- path: /installation
+  navigation:
+    title: インストール
+    description: Uptime Kumaのインストール方法
+- path: /community
+  navigation:
+    title: コミュニティ
+    description: ヘルプと貢献
+- path: /sponsors
+  navigation:
+    title: スポンサー
+    description: プロジェクトの支援者を見る
+- path: /security
+  navigation:
+    title: セキュリティ
+    description: セキュリティポリシーを見る
+- path: /license
+  navigation:
+    title: ライセンス
+    description: ソフトウェアライセンスを読む

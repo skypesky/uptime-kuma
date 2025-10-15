@@ -1,0 +1,28 @@
+- path: /home
+  navigation:
+    title: 首頁
+    description: 返回首頁
+- path: /features
+  navigation:
+    title: 功能
+    description: 探索所有監控功能
+- path: /installation
+  navigation:
+    title: 安裝
+    description: 學習如何安裝 Uptime Kuma
+- path: /community
+  navigation:
+    title: 社群
+    description: 獲取幫助並做出貢獻
+- path: /sponsors
+  navigation:
+    title: 贊助夥伴
+    description: 查看我們的專案支持者
+- path: /security
+  navigation:
+    title: 安全
+    description: 查看我們的安全政策
+- path: /license
+  navigation:
+    title: 軟體授權
+    description: 閱讀軟體授權條款

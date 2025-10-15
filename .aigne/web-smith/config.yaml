@@ -52,7 +52,7 @@ rules: ""
 # Glossary: Define project-specific terms and definitions
 # glossary: "@glossary.md"  # Path to markdown file containing glossary definitions
 
-locale: zh
+locale: en
 # translateLanguages:  # List of languages to translate the pages to
 #   - zh  # Example: Chinese translation
 #   - en  # Example: English translation
@@ -68,7 +68,11 @@ defaultDatasources:  # Default datasources included in every page
 # minImageWidth: Only images wider than this value (in pixels) will be used in page generation
 media:
   minImageWidth: 800
-lastGitHead: e6f105535fabadd970f5c7bacd060671969ae854
+lastGitHead: e6ec324262e3d77801cd812bc1ed9e6c28d23d1e
 appUrl: https://websmith.aigne.io
 # Checkout ID for website deployment service
 checkoutId: ""
+translateLanguages:
+  - zh
+  - zh-TW
+  - ja

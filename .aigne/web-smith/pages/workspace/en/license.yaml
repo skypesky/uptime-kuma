@@ -1,0 +1,12 @@
+meta:
+  title: "MIT License - Uptime Kuma"
+  description: "Uptime Kuma is open-source software distributed under the MIT License. Read the full license for details on permissions and limitations."
+  image: ""
+sections:
+  - sectionName: "licenseDisplay"
+    sectionSummary: "This section clearly displays the full text of Uptime Kuma's MIT License, providing legal transparency for users and contributors. It uses a code block component to ensure the text is well-formatted and easy to read."
+    verticalHeroTitle: "MIT License"
+    verticalHeroDescription: "Uptime Kuma is free and open-source software distributed under the terms of the MIT License below. This grants you broad freedom to use, modify, and distribute, ensuring the project remains open and collaborative."
+    verticalHeroCode:
+      name: "LICENSE"
+      content: "MIT License\n\nCopyright (c) 2021 Louis Lam\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."

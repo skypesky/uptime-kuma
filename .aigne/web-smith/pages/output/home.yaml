@@ -1,9 +1,22 @@
 id: 616571b7c79a8472
-createdAt: 2025-10-15T03:15:42.844Z
-updatedAt: 2025-10-15T03:15:42.844Z
-publishedAt: 2025-10-15T03:15:42.844Z
+createdAt: 2025-10-15T03:49:21.091Z
+updatedAt: 2025-10-15T03:49:21.091Z
+publishedAt: 2025-10-15T03:49:21.091Z
 isPublic: true
 locales:
+  en:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: "Uptime Kuma: An Easy-to-Use Open-Source Self-Hosted Monitoring Tool"
+    description: Learn about Uptime Kuma, a powerful and beautifully designed
+      self-hosted monitoring solution. Try the live demo, view installation
+      guides, and start monitoring your services today.
+    image: https://user-images.githubusercontent.com/1336778/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg
+    header:
+      sticky: true
   zh:
     backgroundColor: ""
     style:
@@ -12,6 +25,29 @@ locales:
       paddingX: normal
     title: "Uptime Kuma: 简单易用的开源自托管监控工具"
     description: 了解 Uptime Kuma，一款功能强大、界面美观的自托管监控解决方案。体验在线演示，查看安装指南，立即开始监控您的服务。
+    image: https://user-images.githubusercontent.com/1336778/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg
+    header:
+      sticky: true
+  zh-TW:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: Uptime Kuma：簡單易用的開源自託管監控工具
+    description: 了解 Uptime Kuma，一款功能強大、介面美觀的自託管監控解決方案。體驗線上演示，查看安裝指南，立即開始監控您的服務。
+    image: https://user-images.githubusercontent.com/1336778/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg
+    header:
+      sticky: true
+  ja:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: "Uptime Kuma: シンプルで使いやすいオープンソースの自己ホスティング監視ツール"
+    description: Uptime
+      Kumaは、パワフルで美しいUIを持つ自己ホスティング監視ソリューションです。オンラインデモを体験し、インストールガイドを確認して、今すぐサービスの監視を始めましょう。
     image: https://user-images.githubusercontent.com/1336778/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg
     header:
       sticky: true
@@ -812,6 +848,29 @@ sectionIds:
   - 6edec3e84b5a8e8d
 dataSource:
   087e8576fefadf0f:
+    en:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Uptime Kuma is the open-source solution you've been looking for. Say
+                  goodbye to expensive subscription services and take full
+                  control of your service monitoring, all at your fingertips!
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: An Elegant, Modern, and Easy-to-Use Self-Hosted Monitoring Tool
+            style:
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
     zh:
       properties:
         9ajrz12ik7esfk1z:
@@ -833,7 +892,74 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
+    zh-TW:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Uptime Kuma 是您一直在尋找的開源解決方案。告別昂貴的訂閱服務，完全掌控您的服務監控，一切盡在彈指之間！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 一款優雅、現代且易於使用的自託管監控工具
+            style:
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+    ja:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Uptime
+                  Kumaは、あなたが探し求めていたオープンソースソリューションです。高価なサブスクリプションサービスに別れを告げ、サービスの監視を完全にコントロールしましょう。すべてがあなたの指先で完結します！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: エレガントでモダン、そして使いやすい自己ホスティング監視ツール
+            style:
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
   5455a7046747c6d7:
+    en:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: Live Demo
+              url: https://demo.kuma.pet/start-demo
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: Quick Install
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: link:///installation
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        v9979xeclpsbvn0n:
+          value: flex-start
     zh:
       properties:
         b8x4m3n9kp7qtw5r:
@@ -858,7 +984,65 @@ dataSource:
           value: flex-start
         v9979xeclpsbvn0n:
           value: flex-start
+    zh-TW:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 線上體驗
+              url: https://demo.kuma.pet/start-demo
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: 快速安裝
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: link:///installation
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        v9979xeclpsbvn0n:
+          value: flex-start
+    ja:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: オンラインデモ
+              url: https://demo.kuma.pet/start-demo
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: クイックインストール
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: link:///installation
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        v9979xeclpsbvn0n:
+          value: flex-start
   f98b98ffd13b8a1d:
+    en:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://user-images.githubusercontent.com/1336778/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg
+            mediaKitUrl: https://user-images.githubusercontent.com/1336778/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg
+            width: 2445
+            height: 1394
+        jjv0hvr8wrixt1f3:
+          value: 1
     zh:
       properties:
         7m5pz8nefl5j9hqq:
@@ -869,7 +1053,38 @@ dataSource:
             height: 1394
         jjv0hvr8wrixt1f3:
           value: 1
+    zh-TW:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://user-images.githubusercontent.com/1336778/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg
+            mediaKitUrl: https://user-images.githubusercontent.com/1336778/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg
+            width: 2445
+            height: 1394
+        jjv0hvr8wrixt1f3:
+          value: 1
+    ja:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://user-images.githubusercontent.com/1336778/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg
+            mediaKitUrl: https://user-images.githubusercontent.com/1336778/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg
+            width: 2445
+            height: 1394
+        jjv0hvr8wrixt1f3:
+          value: 1
   d79cdf28faac3108:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Powerful Features at a Glance
+            style:
+              variant: h2
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -881,7 +1096,51 @@ dataSource:
             text: 强大功能，一目了然
             style:
               variant: h2
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 強大功能，一目了然
+            style:
+              variant: h2
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 強力な機能が一目でわかる
+            style:
+              variant: h2
   8a0319c7be20285c:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Comprehensive Monitoring
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Supports multiple monitoring types including HTTP(s), TCP, Ping, DNS,
+                  Docker, and more to meet all your needs.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -903,7 +1162,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 全方位監控
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 支援 HTTP(s)、TCP、Ping、DNS、Docker 等多種監控類型，滿足您的所有需求。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 包括的な監視
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: HTTP(s)、TCP、Ping、DNS、Dockerなど、多様な監視タイプをサポートし、あらゆるニーズに応えます。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   3ee66b593de1e036:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:activity-square
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -912,7 +1221,45 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:activity-square
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:activity-square
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   051f5382aaa30930:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Instant Alert Notifications
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Integrates with over 90 notification services like Telegram, Slack, and
+                  Discord to ensure you are notified of issues immediately.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -934,7 +1281,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 即時警報通知
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 整合 Telegram、Slack、Discord 等 90 多種通知服務，確保您第一時間獲知異常。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: リアルタイムのアラート通知
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Telegram、Slack、Discordなど90以上の通知サービスと連携し、異常を即座に検知してお知らせします。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   8aee431fd7b453d4:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:bell-ring
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -943,7 +1340,45 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:bell-ring
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:bell-ring
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   6cf87c8dd697af94:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Beautiful Dashboard
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Features a well-designed, responsive, and modern user interface for a
+                  pleasant user experience.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -965,7 +1400,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 精美儀表板
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 擁有設計精良、反應迅速的現代化使用者介面，為您帶來愉悅的操作體驗。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 美しいダッシュボード
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 洗練されたデザインでレスポンシブな最新のUIが、快適な操作体験を提供します。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   835229da4540f842:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:layout-dashboard
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -974,7 +1459,46 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:layout-dashboard
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:layout-dashboard
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   b1bdf30373fd4a04:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Start Monitoring with Just One Command
+            style:
+              variant: h1
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759364500601-4gbj76l4x
+                type: text
+                text: We recommend installing with Docker, as it's the easiest and fastest way.
+                  Copy the command below and run it in your terminal to start
+                  Uptime Kuma.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -996,7 +1520,65 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 只需一行指令，即刻開始監控
+            style:
+              variant: h1
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759364500601-4gbj76l4x
+                type: text
+                text: 我們推薦使用 Docker 進行安裝，這是最簡單、最快捷的方式。複製下方的指令，在您的終端機中執行，即可啟動 Uptime Kuma。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: コマンド一行で、すぐに監視を開始
+            style:
+              variant: h1
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759364500601-4gbj76l4x
+                type: text
+                text: インストールにはDockerの使用を推奨します。これが最も簡単で迅速な方法です。以下のコマンドをコピーし、ターミナルで実行するだけでUptime
+                  Kumaが起動します。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   193aa65e2436beb1:
+    en:
+      properties:
+        a7frn5jmx5vpxpt3:
+          value: docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data
+            --name uptime-kuma louislam/uptime-kuma:1
+        qvxiyadgn5bj6oq8:
+          value: false
+        c4kvf6b7zyskk8m:
+          value: false
+        b2jrz12ik7esf93z:
+          value: bash
+        7mp2u9tibl03thp6:
+          value: shell
+        d8hvf7cxz93jk5p:
+          value: 1rem
     zh:
       properties:
         a7frn5jmx5vpxpt3:
@@ -1012,7 +1594,48 @@ dataSource:
           value: shell
         d8hvf7cxz93jk5p:
           value: 1rem
+    zh-TW:
+      properties:
+        a7frn5jmx5vpxpt3:
+          value: docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data
+            --name uptime-kuma louislam/uptime-kuma:1
+        qvxiyadgn5bj6oq8:
+          value: false
+        c4kvf6b7zyskk8m:
+          value: false
+        b2jrz12ik7esf93z:
+          value: bash
+        7mp2u9tibl03thp6:
+          value: shell
+        d8hvf7cxz93jk5p:
+          value: 1rem
+    ja:
+      properties:
+        a7frn5jmx5vpxpt3:
+          value: docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data
+            --name uptime-kuma louislam/uptime-kuma:1
+        qvxiyadgn5bj6oq8:
+          value: false
+        c4kvf6b7zyskk8m:
+          value: false
+        b2jrz12ik7esf93z:
+          value: bash
+        7mp2u9tibl03thp6:
+          value: shell
+        d8hvf7cxz93jk5p:
+          value: 1rem
   2566cd620df3e7eb:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: More Than Just Monitoring, It's a Perfect Showcase
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -1024,7 +1647,51 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 不僅僅是監控，更是完美的展示
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 監視するだけでなく、美しく見せる
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
   d1218989b9b5e72e:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Customizable Status Pages
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: Create beautiful, public status pages for your users. You can even map
+                  your own domain to professionally display your service status.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -1046,7 +1713,61 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 可自訂的狀態頁面
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: 為您的使用者建立漂亮、公開的狀態頁面，甚至可以綁定到您自己的網域，專業地展示您的服務狀態。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: カスタマイズ可能なステータスページ
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: ユーザー向けに美しく公開されたステータスページを作成できます。独自のドメインに紐付けることも可能で、サービスの稼働状況をプロフェッショナルに表示します。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
   52a74ead09463cf5:
+    en:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://user-images.githubusercontent.com/1336778/134628766-a3fe0981-0926-4285-ab46-891a21c3e4cb.png
+            mediaKitUrl: https://user-images.githubusercontent.com/1336778/134628766-a3fe0981-0926-4285-ab46-891a21c3e4cb.png
+            width: 1270
+            height: 520
+        70d4dvbqgjal3z6j:
+          value: ""
+        jjv0hvr8wrixt1f3:
+          value: 1
     zh:
       properties:
         7m5pz8nefl5j9hqq:
@@ -1059,7 +1780,53 @@ dataSource:
           value: ""
         jjv0hvr8wrixt1f3:
           value: 1
+    zh-TW:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://user-images.githubusercontent.com/1336778/134628766-a3fe0981-0926-4285-ab46-891a21c3e4cb.png
+            mediaKitUrl: https://user-images.githubusercontent.com/1336778/134628766-a3fe0981-0926-4285-ab46-891a21c3e4cb.png
+            width: 1270
+            height: 520
+        70d4dvbqgjal3z6j:
+          value: ""
+        jjv0hvr8wrixt1f3:
+          value: 1
+    ja:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://user-images.githubusercontent.com/1336778/134628766-a3fe0981-0926-4285-ab46-891a21c3e4cb.png
+            mediaKitUrl: https://user-images.githubusercontent.com/1336778/134628766-a3fe0981-0926-4285-ab46-891a21c3e4cb.png
+            width: 1270
+            height: 520
+        70d4dvbqgjal3z6j:
+          value: ""
+        jjv0hvr8wrixt1f3:
+          value: 1
   b1b63adc7571b1b6:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Switch Between Light & Dark Themes
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: Supports both light and dark modes for comfortable viewing in any lighting
+                  condition, protecting your eyes.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -1081,7 +1848,61 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 明暗主題，隨心切換
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: 支援明亮和黑暗兩種模式，在任何光線環境下都能舒適使用，保護您的眼睛。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: ライト＆ダークテーマに切り替え可能
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: ライトモードとダークモードの両方をサポート。どんな照明環境でも快適に使用でき、目を保護します。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
   c85e815c5fa30b8a:
+    en:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://uptime.kuma.pet/img/light.jpg
+            mediaKitUrl: https://uptime.kuma.pet/img/light.jpg
+            width: 1270
+            height: 520
+        70d4dvbqgjal3z6j:
+          value: ""
+        jjv0hvr8wrixt1f3:
+          value: 1
     zh:
       properties:
         7m5pz8nefl5j9hqq:
@@ -1094,7 +1915,45 @@ dataSource:
           value: ""
         jjv0hvr8wrixt1f3:
           value: 1
+    zh-TW:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://uptime.kuma.pet/img/light.jpg
+            mediaKitUrl: https://uptime.kuma.pet/img/light.jpg
+            width: 1270
+            height: 520
+        70d4dvbqgjal3z6j:
+          value: ""
+        jjv0hvr8wrixt1f3:
+          value: 1
+    ja:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://uptime.kuma.pet/img/light.jpg
+            mediaKitUrl: https://uptime.kuma.pet/img/light.jpg
+            width: 1270
+            height: 520
+        70d4dvbqgjal3z6j:
+          value: ""
+        jjv0hvr8wrixt1f3:
+          value: 1
   be2459a9b19a18c1:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Have Questions? We Have Answers!
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        9ajrz12ik7esfk1z:
+          value:
+            list: []
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -1109,7 +1968,69 @@ dataSource:
         9ajrz12ik7esfk1z:
           value:
             list: []
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 有疑問？我們有答案！
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        9ajrz12ik7esfk1z:
+          value:
+            list: []
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: ご質問ですか？答えがここにあります！
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        9ajrz12ik7esfk1z:
+          value:
+            list: []
   dbb2035e9969526a:
+    en:
+      properties:
+        4221qi1bxy322mf4:
+          value:
+            - title: Where should I go for help?
+              answer: We encourage you to ask for help via GitHub Issues or the Uptime Kuma
+                Subreddit (r/UptimeKuma). You'll get assistance from the
+                community and developers there. Please avoid asking for help via
+                email.
+            - title: How can I contribute to this project?
+              answer: Your contributions are very welcome! You can participate by submitting
+                pull requests, testing beta versions, or helping us translate
+                Uptime Kuma into more languages. Please read our contribution
+                guidelines before you start.
+            - title: How do I report a bug or request a new feature?
+              answer: If you find a bug or have a suggestion for a new feature, please don't
+                hesitate to create a new Issue on our GitHub repository. Your
+                feedback is crucial to us!
+            - title: Is Uptime Kuma free?
+              answer: Yes, Uptime Kuma is a completely free and open-source project
+                distributed under the MIT License. You are free to use, modify,
+                and distribute it.
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
     zh:
       properties:
         4221qi1bxy322mf4:
@@ -1136,7 +2057,83 @@ dataSource:
               answer: ""
             - title: ""
               answer: ""
+    zh-TW:
+      properties:
+        4221qi1bxy322mf4:
+          value:
+            - title: 我應該去哪裡尋求協助？
+              answer: 我們鼓勵您透過 GitHub Issues 或 Uptime Kuma 的 Subreddit (r/UptimeKuma)
+                提問。在那裡，您將獲得社群和開發者的協助。請避免透過電子郵件提問。
+            - title: 我如何為這個專案做出貢獻？
+              answer: 非常歡迎您的貢獻！您可以透過提交拉取請求、測試 Beta 版本或協助我們將 Uptime Kuma
+                翻譯成更多語言來參與。請在開始前閱讀我們的貢獻指南。
+            - title: 如何回報錯誤或請求新功能？
+              answer: 如果您發現了錯誤或有新功能建議，請不要猶豫，直接在我們的 GitHub 存放庫上建立一個新的 Issue。您的回饋對我們至關重要！
+            - title: Uptime Kuma 是免費的嗎？
+              answer: 是的，Uptime Kuma 是一個完全免費的開源專案，根據 MIT 授權條款發佈。您可以自由使用、修改和分發它。
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+    ja:
+      properties:
+        4221qi1bxy322mf4:
+          value:
+            - title: どこでサポートを受けられますか？
+              answer: GitHub IssuesまたはUptime KumaのSubreddit
+                (r/UptimeKuma)での質問を推奨しています。そこではコミュニティや開発者からのサポートが得られます。メールでのお問い合わせはご遠慮ください。
+            - title: このプロジェクトに貢献するにはどうすればよいですか？
+              answer: コントリビューションを歓迎します！プルリクエストの送信、ベータ版のテスト、Uptime
+                Kumaの多言語への翻訳協力などで参加できます。開始する前に、コントリビューションガイドラインをお読みください。
+            - title: バグの報告や新機能のリクエストはどのように行いますか？
+              answer: バグを発見した場合や新機能の提案がある場合は、遠慮なくGitHubリポジトリで新しいIssueを作成してください。皆様からのフィードバックは私たちにとって非常に重要です！
+            - title: Uptime Kumaは無料ですか？
+              answer: はい、Uptime
+                KumaはMITライセンスの下で配布される、完全に無料のオープンソースプロジェクトです。自由に使用、変更、配布することができます。
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
   b2fd4755c489229c:
+    en:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Try the live demo now or deploy it on your own server. It only takes a few
+                  minutes to have a powerful monitoring system up and running.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Ready to Experience Uptime Kuma?
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
     zh:
       properties:
         9ajrz12ik7esfk1z:
@@ -1159,7 +2156,73 @@ dataSource:
           value: center
         kyg0hdy5uqq4gc1o:
           value: center
+    zh-TW:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: 立即試用線上演示或在您自己的伺服器上部署。只需幾分鐘，即可擁有一個強大的監控系統。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 準備好體驗 Uptime Kuma 了嗎？
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+    ja:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: 今すぐオンラインデモを試すか、ご自身のサーバーにデプロイしてみましょう。わずか数分で、強力な監視システムを構築できます。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Uptime Kumaを体験する準備はできましたか？
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
   508276fbeb60a116:
+    en:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: Live Demo
+              url: https://demo.kuma.pet/start-demo
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: View on GitHub
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: https://github.com/louislam/uptime-kuma
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
     zh:
       properties:
         b8x4m3n9kp7qtw5r:
@@ -1174,6 +2237,50 @@ dataSource:
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: 查看 GitHub
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: https://github.com/louislam/uptime-kuma
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
+    zh-TW:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 線上體驗
+              url: https://demo.kuma.pet/start-demo
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: 查看 GitHub
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: https://github.com/louislam/uptime-kuma
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
+    ja:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: オンラインデモ
+              url: https://demo.kuma.pet/start-demo
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: GitHubで見る
               variant: outlined
               borderColor: common.white
               size: large

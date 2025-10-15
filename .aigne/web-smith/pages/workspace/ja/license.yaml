@@ -1,0 +1,12 @@
+meta:
+  title: "MITライセンス - Uptime Kuma"
+  description: "Uptime KumaはMITライセンスの下で配布されるオープンソースソフトウェアです。権限と制限に関する詳細については、ライセンス全文をお読みください。"
+  image: ""
+sections:
+  - sectionName: "licenseDisplay"
+    sectionSummary: "このセクションでは、Uptime KumaのMITライセンス全文を明確に表示し、ユーザーと貢献者に法的な透明性を提供します。コードブロックコンポーネントを使用して、テキストが正しくフォーマットされ、読みやすいようにしています。"
+    verticalHeroTitle: "MITライセンス"
+    verticalHeroDescription: "Uptime Kumaはフリーでオープンソースのソフトウェアであり、以下のMITライセンスの条項に基づいて配布されています。これにより、使用、変更、配布の広範な自由が与えられ、プロジェクトがオープンで協力的であり続けることが保証されます。"
+    verticalHeroCode:
+      name: "LICENSE"
+      content: "MIT License\n\nCopyright (c) 2021 Louis Lam\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."

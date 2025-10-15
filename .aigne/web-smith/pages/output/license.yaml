@@ -1,9 +1,21 @@
 id: 4c7d86ebe658d3af
-createdAt: 2025-10-15T03:15:42.851Z
-updatedAt: 2025-10-15T03:15:42.851Z
-publishedAt: 2025-10-15T03:15:42.851Z
+createdAt: 2025-10-15T03:49:21.104Z
+updatedAt: 2025-10-15T03:49:21.104Z
+publishedAt: 2025-10-15T03:49:21.104Z
 isPublic: true
 locales:
+  en:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: MIT License - Uptime Kuma
+    description: Uptime Kuma is open-source software distributed under the MIT
+      License. Read the full license for details on permissions and limitations.
+    image: ""
+    header:
+      sticky: true
   zh:
     backgroundColor: ""
     style:
@@ -12,6 +24,29 @@ locales:
       paddingX: normal
     title: MIT 许可证 - Uptime Kuma
     description: Uptime Kuma 是根据 MIT 许可证分发的开源软件。阅读完整的许可证，了解有关权限和限制的详细信息。
+    image: ""
+    header:
+      sticky: true
+  zh-TW:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: MIT 授權條款 - Uptime Kuma
+    description: Uptime Kuma 是一款根據 MIT 授權條款發行的開源軟體。請閱讀完整的授權條款，以了解有關權限和限制的詳細資訊。
+    image: ""
+    header:
+      sticky: true
+  ja:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: MITライセンス - Uptime Kuma
+    description: Uptime
+      KumaはMITライセンスの下で配布されるオープンソースソフトウェアです。権限と制限に関する詳細については、ライセンス全文をお読みください。
     image: ""
     header:
       sticky: true
@@ -96,6 +131,30 @@ sectionIds:
   - c1a363268b47d70a
 dataSource:
   baa1a11b0afb9cd6:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: MIT License
+            style:
+              variant: h1
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759364500601-4gbj76l4x
+                type: text
+                text: Uptime Kuma is free and open-source software distributed under the terms
+                  of the MIT License below. This grants you broad freedom to
+                  use, modify, and distribute, ensuring the project remains open
+                  and collaborative.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -117,8 +176,240 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: MIT 授權條款
+            style:
+              variant: h1
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759364500601-4gbj76l4x
+                type: text
+                text: Uptime Kuma 是自由及開源軟體，根據以下 MIT 授權條款的條文進行發行。這賦予了您廣泛的使用、修改和散佈自由，確保專案保持開放和協作。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: MITライセンス
+            style:
+              variant: h1
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759364500601-4gbj76l4x
+                type: text
+                text: Uptime
+                  Kumaはフリーでオープンソースのソフトウェアであり、以下のMITライセンスの条項に基づいて配布されています。これにより、使用、変更、配布の広範な自由が与えられ、プロジェクトがオープンで協力的であり続けることが保証されます。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   8bf4363f8d1d08a7:
+    en:
+      properties:
+        a7frn5jmx5vpxpt3:
+          value: >-
+            MIT License
+
+
+            Copyright (c) 2021 Louis Lam
+
+
+            Permission is hereby granted, free of charge, to any person
+            obtaining a copy
+
+            of this software and associated documentation files (the
+            "Software"), to deal
+
+            in the Software without restriction, including without limitation
+            the rights
+
+            to use, copy, modify, merge, publish, distribute, sublicense, and/or
+            sell
+
+            copies of the Software, and to permit persons to whom the Software
+            is
+
+            furnished to do so, subject to the following conditions:
+
+
+            The above copyright notice and this permission notice shall be
+            included in all
+
+            copies or substantial portions of the Software.
+
+
+            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+            EXPRESS OR
+
+            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+            MERCHANTABILITY,
+
+            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+            SHALL THE
+
+            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+            OTHER
+
+            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+            ARISING FROM,
+
+            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+            DEALINGS IN THE
+
+            SOFTWARE.
+        qvxiyadgn5bj6oq8:
+          value: false
+        c4kvf6b7zyskk8m:
+          value: false
+        b2jrz12ik7esf93z:
+          value: LICENSE
+        7mp2u9tibl03thp6:
+          value: shell
+        d8hvf7cxz93jk5p:
+          value: 1rem
     zh:
+      properties:
+        a7frn5jmx5vpxpt3:
+          value: >-
+            MIT License
+
+
+            Copyright (c) 2021 Louis Lam
+
+
+            Permission is hereby granted, free of charge, to any person
+            obtaining a copy
+
+            of this software and associated documentation files (the
+            "Software"), to deal
+
+            in the Software without restriction, including without limitation
+            the rights
+
+            to use, copy, modify, merge, publish, distribute, sublicense, and/or
+            sell
+
+            copies of the Software, and to permit persons to whom the Software
+            is
+
+            furnished to do so, subject to the following conditions:
+
+
+            The above copyright notice and this permission notice shall be
+            included in all
+
+            copies or substantial portions of the Software.
+
+
+            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+            EXPRESS OR
+
+            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+            MERCHANTABILITY,
+
+            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+            SHALL THE
+
+            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+            OTHER
+
+            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+            ARISING FROM,
+
+            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+            DEALINGS IN THE
+
+            SOFTWARE.
+        qvxiyadgn5bj6oq8:
+          value: false
+        c4kvf6b7zyskk8m:
+          value: false
+        b2jrz12ik7esf93z:
+          value: LICENSE
+        7mp2u9tibl03thp6:
+          value: shell
+        d8hvf7cxz93jk5p:
+          value: 1rem
+    zh-TW:
+      properties:
+        a7frn5jmx5vpxpt3:
+          value: >-
+            MIT License
+
+
+            Copyright (c) 2021 Louis Lam
+
+
+            Permission is hereby granted, free of charge, to any person
+            obtaining a copy
+
+            of this software and associated documentation files (the
+            "Software"), to deal
+
+            in the Software without restriction, including without limitation
+            the rights
+
+            to use, copy, modify, merge, publish, distribute, sublicense, and/or
+            sell
+
+            copies of the Software, and to permit persons to whom the Software
+            is
+
+            furnished to do so, subject to the following conditions:
+
+
+            The above copyright notice and this permission notice shall be
+            included in all
+
+            copies or substantial portions of the Software.
+
+
+            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+            EXPRESS OR
+
+            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+            MERCHANTABILITY,
+
+            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+            SHALL THE
+
+            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+            OTHER
+
+            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+            ARISING FROM,
+
+            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+            DEALINGS IN THE
+
+            SOFTWARE.
+        qvxiyadgn5bj6oq8:
+          value: false
+        c4kvf6b7zyskk8m:
+          value: false
+        b2jrz12ik7esf93z:
+          value: LICENSE
+        7mp2u9tibl03thp6:
+          value: shell
+        d8hvf7cxz93jk5p:
+          value: 1rem
+    ja:
       properties:
         a7frn5jmx5vpxpt3:
           value: >-

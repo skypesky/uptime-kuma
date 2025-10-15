@@ -2,6 +2,19 @@ sitemap:
   - title: "Uptime Kuma: Easy Self-Hosted Monitoring"
     path: /home
     locales:
+      en:
+        title: "Uptime Kuma: An Easy-to-Use Open-Source Self-Hosted Monitoring Tool"
+        description: Learn about Uptime Kuma, a powerful and beautifully designed
+          self-hosted monitoring solution. Try the live demo, view installation
+          guides, and start monitoring your services today.
+        image: https://user-images.githubusercontent.com/1336778/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
       zh:
         title: "Uptime Kuma: 简单易用的开源自托管监控工具"
         description: 了解 Uptime Kuma，一款功能强大、界面美观的自托管监控解决方案。体验在线演示，查看安装指南，立即开始监控您的服务。
@@ -13,16 +26,53 @@ sitemap:
         backgroundColor: ""
         header:
           sticky: true
+      zh-TW:
+        title: Uptime Kuma：簡單易用的開源自託管監控工具
+        description: 了解 Uptime Kuma，一款功能強大、介面美觀的自託管監控解決方案。體驗線上演示，查看安裝指南，立即開始監控您的服務。
+        image: https://user-images.githubusercontent.com/1336778/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
+      ja:
+        title: "Uptime Kuma: シンプルで使いやすいオープンソースの自己ホスティング監視ツール"
+        description: Uptime
+          Kumaは、パワフルで美しいUIを持つ自己ホスティング監視ソリューションです。オンラインデモを体験し、インストールガイドを確認して、今すぐサービスの監視を始めましょう。
+        image: https://user-images.githubusercontent.com/1336778/212262296-e6205815-ad62-488c-83ec-a5b0d0689f7c.jpg
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
     meta:
       file: home.yaml
       id: 616571b7c79a8472
-      createdAt: 2025-10-15T03:15:42.844Z
-      updatedAt: 2025-10-15T03:15:42.844Z
-      publishedAt: 2025-10-15T03:15:42.844Z
+      createdAt: 2025-10-15T03:49:21.091Z
+      updatedAt: 2025-10-15T03:49:21.091Z
+      publishedAt: 2025-10-15T03:49:21.091Z
       isPublic: true
   - title: Features of Uptime Kuma
     path: /features
     locales:
+      en:
+        title: Uptime Kuma Features | Comprehensive Monitoring & Instant Notifications
+        description: Explore the powerful features of Uptime Kuma! From HTTP(s) and TCP
+          to DNS records, we offer comprehensive monitoring types. With over 90
+          notification service integrations, you can stay instantly informed
+          about your service status.
+        image: ""
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
       zh:
         title: Uptime Kuma 功能 | 全方位监控与即时通知
         description: 探索 Uptime Kuma 的强大功能！从 HTTP(s)、TCP 到 DNS
@@ -35,16 +85,53 @@ sitemap:
         backgroundColor: ""
         header:
           sticky: true
+      zh-TW:
+        title: Uptime Kuma 功能 | 全方位監控與即時通知
+        description: 探索 Uptime Kuma 的強大功能！從 HTTP(s)、TCP 到 DNS 記錄，我們提供全面的監控類型。更有超過 90
+          種通知服務整合，讓您即時掌握服務狀態。
+        image: ""
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
+      ja:
+        title: Uptime Kumaの機能 | 包括的な監視と即時通知
+        description: Uptime
+          Kumaのパワフルな機能をご覧ください！HTTP(s)やTCPからDNSレコードまで、包括的な監視タイプを提供します。さらに90以上の通知サービスとの統合により、サービスのステータスを即座に把握できます。
+        image: ""
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
     meta:
       file: features.yaml
       id: 69ee505620f7efd5
-      createdAt: 2025-10-15T03:15:42.837Z
-      updatedAt: 2025-10-15T03:15:42.837Z
-      publishedAt: 2025-10-15T03:15:42.837Z
+      createdAt: 2025-10-15T03:49:21.077Z
+      updatedAt: 2025-10-15T03:49:21.077Z
+      publishedAt: 2025-10-15T03:49:21.077Z
       isPublic: true
   - title: Installation Guide
     path: /installation
     locales:
+      en:
+        title: Uptime Kuma Installation Guide | Docker & Non-Docker Environments
+        description: Easily install Uptime Kuma with our detailed, step-by-step guide.
+          Installation instructions are provided for both Docker (recommended)
+          and non-Docker environments, including system requirements and
+          background service setup.
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
       zh:
         title: Uptime Kuma 安装指南 | Docker 与非 Docker 环境
         description: 按照我们详尽的分步指南，轻松安装 Uptime Kuma。提供 Docker（推荐）和非 Docker
@@ -56,16 +143,51 @@ sitemap:
         backgroundColor: ""
         header:
           sticky: true
+      zh-TW:
+        title: Uptime Kuma 安裝指南 | Docker 與非 Docker 環境
+        description: 依照我們詳盡的逐步指南，輕鬆安裝 Uptime Kuma。提供 Docker（推薦）和非 Docker
+          環境的安裝說明，包含系統需求和背景服務設定。
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
+      ja:
+        title: Uptime Kuma インストールガイド | Docker & 非Docker環境
+        description: 詳細なステップバイステップガイドに従って、Uptime
+          Kumaを簡単にインストールしましょう。Docker（推奨）と非Docker環境の両方のインストール手順を提供し、システム要件やバックグラウンドサービスの設定についても説明します。
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
     meta:
       file: installation.yaml
       id: 8d5887e9ab6a37a8
-      createdAt: 2025-10-15T03:15:42.849Z
-      updatedAt: 2025-10-15T03:15:42.849Z
-      publishedAt: 2025-10-15T03:15:42.849Z
+      createdAt: 2025-10-15T03:49:21.099Z
+      updatedAt: 2025-10-15T03:49:21.099Z
+      publishedAt: 2025-10-15T03:49:21.099Z
       isPublic: true
   - title: Community & Contributions
     path: /community
     locales:
+      en:
+        title: Join the Uptime Kuma Community | Ask, Contribute & Connect
+        description: Become part of the Uptime Kuma community! Ask questions on our
+          Subreddit, report bugs or request features on GitHub, and learn how to
+          contribute through pull requests, testing, or translations.
+        image: ""
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
       zh:
         title: 加入 Uptime Kuma 社区 | 提问、贡献与交流
         description: 成为 Uptime Kuma 社区的一员！在我们的 Subreddit 提问，在 GitHub
@@ -78,16 +200,52 @@ sitemap:
         backgroundColor: ""
         header:
           sticky: true
+      zh-TW:
+        title: 加入 Uptime Kuma 社群 | 提問、貢獻與交流
+        description: 成為 Uptime Kuma 社群的一員！在我們的 Subreddit 提問，在 GitHub
+          上回報錯誤或請求新功能，並了解如何透過拉取請求、測試或翻譯做出貢獻。
+        image: ""
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
+      ja:
+        title: Uptime Kumaコミュニティに参加 | 質問、貢献、交流
+        description: Uptime
+          Kumaコミュニティの一員になりましょう！サブレディットで質問したり、GitHubでバグ報告や機能リクエストをしたり、プルリクエストやテスト、翻訳を通じて貢献する方法を学びましょう。
+        image: ""
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
     meta:
       file: community.yaml
       id: 423f8449a3d5581e
-      createdAt: 2025-10-15T03:15:42.829Z
-      updatedAt: 2025-10-15T03:15:42.829Z
-      publishedAt: 2025-10-15T03:15:42.829Z
+      createdAt: 2025-10-15T03:49:21.065Z
+      updatedAt: 2025-10-15T03:49:21.065Z
+      publishedAt: 2025-10-15T03:49:21.065Z
       isPublic: true
   - title: Sponsors
     path: /sponsors
     locales:
+      en:
+        title: Sponsors | Uptime Kuma - Thank You For Your Support!
+        description: A heartfelt thank you to the individuals and companies who sponsor
+          Uptime Kuma. Your support keeps our open-source monitoring tool alive
+          and thriving.
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
       zh:
         title: 赞助商 | Uptime Kuma - 感谢您的支持！
         description: 衷心感谢赞助 Uptime Kuma 的个人和公司。您的支持让我们的开源监控工具保持活跃和蓬勃发展。
@@ -98,16 +256,49 @@ sitemap:
         backgroundColor: ""
         header:
           sticky: true
+      zh-TW:
+        title: 贊助者 | Uptime Kuma - 感謝您的支持！
+        description: 衷心感謝贊助 Uptime Kuma 的個人與公司。您的支持讓我們的開源監控工具保持活躍並蓬勃發展。
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
+      ja:
+        title: スポンサー | Uptime Kuma - ご支援ありがとうございます！
+        description: Uptime
+          Kumaをスポンサーしてくださっている個人および企業の皆様に心より感謝申し上げます。皆様のご支援が、私たちのオープンソース監視ツールを維持し、発展させる力となっています。
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
     meta:
       file: sponsors.yaml
       id: dbb3bf7d4cbcc8d9
-      createdAt: 2025-10-15T03:15:42.856Z
-      updatedAt: 2025-10-15T03:15:42.856Z
-      publishedAt: 2025-10-15T03:15:42.856Z
+      createdAt: 2025-10-15T03:49:21.114Z
+      updatedAt: 2025-10-15T03:49:21.114Z
+      publishedAt: 2025-10-15T03:49:21.114Z
       isPublic: true
   - title: Security Policy
     path: /security
     locales:
+      en:
+        title: Uptime Kuma Security Policy | Vulnerability Reporting & Version Support
+        description: Review the official Uptime Kuma security policy. Learn how to
+          responsibly report security vulnerabilities and see supported version
+          information to keep your instance secure.
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
       zh:
         title: Uptime Kuma 安全策略 | 漏洞报告与版本支持
         description: 查阅 Uptime Kuma 的官方安全策略。了解如何负责任地报告安全漏洞，并查看受支持的版本信息以确保您的实例安全。
@@ -118,16 +309,50 @@ sitemap:
         backgroundColor: ""
         header:
           sticky: true
+      zh-TW:
+        title: Uptime Kuma 安全政策 | 漏洞回報與版本支援
+        description: 查閱 Uptime Kuma 的官方安全政策。了解如何負責任地回報安全漏洞，並查看支援的版本資訊以確保您的執行個體安全。
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
+      ja:
+        title: Uptime Kuma セキュリティポリシー | 脆弱性の報告とバージョンサポート
+        description: Uptime
+          Kumaの公式セキュリティポリシーをご覧ください。セキュリティ脆弱性を責任を持って報告する方法を学び、サポートされているバージョン情報を確認して、インスタンスの安全を確保してください。
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
     meta:
       file: security.yaml
       id: 7da1e0bf8fb853a2
-      createdAt: 2025-10-15T03:15:42.851Z
-      updatedAt: 2025-10-15T03:15:42.851Z
-      publishedAt: 2025-10-15T03:15:42.851Z
+      createdAt: 2025-10-15T03:49:21.106Z
+      updatedAt: 2025-10-15T03:49:21.106Z
+      publishedAt: 2025-10-15T03:49:21.106Z
       isPublic: true
   - title: License
     path: /license
     locales:
+      en:
+        title: MIT License - Uptime Kuma
+        description: Uptime Kuma is open-source software distributed under the MIT
+          License. Read the full license for details on permissions and
+          limitations.
+        image: ""
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
       zh:
         title: MIT 许可证 - Uptime Kuma
         description: Uptime Kuma 是根据 MIT 许可证分发的开源软件。阅读完整的许可证，了解有关权限和限制的详细信息。
@@ -139,169 +364,330 @@ sitemap:
         backgroundColor: ""
         header:
           sticky: true
+      zh-TW:
+        title: MIT 授權條款 - Uptime Kuma
+        description: Uptime Kuma 是一款根據 MIT 授權條款發行的開源軟體。請閱讀完整的授權條款，以了解有關權限和限制的詳細資訊。
+        image: ""
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
+      ja:
+        title: MITライセンス - Uptime Kuma
+        description: Uptime
+          KumaはMITライセンスの下で配布されるオープンソースソフトウェアです。権限と制限に関する詳細については、ライセンス全文をお読みください。
+        image: ""
+        style:
+          maxWidth: custom:1440px
+          paddingY: normal
+          paddingX: normal
+        backgroundColor: ""
+        header:
+          sticky: true
     meta:
       file: license.yaml
       id: 4c7d86ebe658d3af
-      createdAt: 2025-10-15T03:15:42.851Z
-      updatedAt: 2025-10-15T03:15:42.851Z
-      publishedAt: 2025-10-15T03:15:42.851Z
+      createdAt: 2025-10-15T03:49:21.104Z
+      updatedAt: 2025-10-15T03:49:21.104Z
+      publishedAt: 2025-10-15T03:49:21.104Z
       isPublic: true
 navigations:
   - id: 659608d95616f9f2-header
     section: header
     visible: true
     title:
+      en: uptime-kuma
       zh: uptime-kuma
+      zh-TW: uptime-kuma
+      ja: uptime-kuma
     link:
+      en: /en
       zh: /zh
+      zh-TW: /zh-TW
+      ja: /ja
     description: ""
     parent: ""
   - id: 659608d95616f9f2-footer
     section: footer
     visible: true
     title:
+      en: uptime-kuma
       zh: uptime-kuma
+      zh-TW: uptime-kuma
+      ja: uptime-kuma
     link:
+      en: /en
       zh: /zh
+      zh-TW: /zh-TW
+      ja: /ja
     description: ""
     parent: ""
   - id: 106a6c241b8797f5
     section: header
     visible: true
     title:
+      en: Home
       zh: Home
+      zh-TW: 首頁
+      ja: ホーム
     link:
+      en: /
       zh: /
+      zh-TW: /
+      ja: /
     description:
+      en: Return to the homepage
       zh: Return to the homepage
+      zh-TW: 返回首頁
+      ja: ホームページに戻る
     parent: 659608d95616f9f2-header
   - id: f5c5d15c42b3cf01
     section: footer
     visible: true
     title:
+      en: Home
       zh: Home
+      zh-TW: 首頁
+      ja: ホーム
     link:
+      en: /
       zh: /
+      zh-TW: /
+      ja: /
     description:
+      en: Return to the homepage
       zh: Return to the homepage
+      zh-TW: 返回首頁
+      ja: ホームページに戻る
     parent: 659608d95616f9f2-footer
   - id: 9f034b63948763d4
     section: header
     visible: true
     title:
+      en: Features
       zh: Features
+      zh-TW: 功能
+      ja: 機能
     link:
+      en: /features
       zh: /features
+      zh-TW: /features
+      ja: /features
     description:
+      en: Explore all monitoring capabilities
       zh: Explore all monitoring capabilities
+      zh-TW: 探索所有監控功能
+      ja: すべての監視機能を見る
     parent: 659608d95616f9f2-header
   - id: 81f6d8ee2c5e662e
     section: footer
     visible: true
     title:
+      en: Features
       zh: Features
+      zh-TW: 功能
+      ja: 機能
     link:
+      en: /features
       zh: /features
+      zh-TW: /features
+      ja: /features
     description:
+      en: Explore all monitoring capabilities
       zh: Explore all monitoring capabilities
+      zh-TW: 探索所有監控功能
+      ja: すべての監視機能を見る
     parent: 659608d95616f9f2-footer
   - id: ea09bb364ef1bffd
     section: header
     visible: true
     title:
+      en: Installation
       zh: Installation
+      zh-TW: 安裝
+      ja: インストール
     link:
+      en: /installation
       zh: /installation
+      zh-TW: /installation
+      ja: /installation
     description:
+      en: Learn how to install Uptime Kuma
       zh: Learn how to install Uptime Kuma
+      zh-TW: 學習如何安裝 Uptime Kuma
+      ja: Uptime Kumaのインストール方法
     parent: 659608d95616f9f2-header
   - id: c74d761d586eab98
     section: footer
     visible: true
     title:
+      en: Installation
       zh: Installation
+      zh-TW: 安裝
+      ja: インストール
     link:
+      en: /installation
       zh: /installation
+      zh-TW: /installation
+      ja: /installation
     description:
+      en: Learn how to install Uptime Kuma
       zh: Learn how to install Uptime Kuma
+      zh-TW: 學習如何安裝 Uptime Kuma
+      ja: Uptime Kumaのインストール方法
     parent: 659608d95616f9f2-footer
   - id: 82df41632da47606
     section: header
     visible: true
     title:
+      en: Community
       zh: Community
+      zh-TW: 社群
+      ja: コミュニティ
     link:
+      en: /community
       zh: /community
+      zh-TW: /community
+      ja: /community
     description:
+      en: Get help and contribute
       zh: Get help and contribute
+      zh-TW: 獲取幫助並做出貢獻
+      ja: ヘルプと貢献
     parent: 659608d95616f9f2-header
   - id: 3ee47fddc2f753a3
     section: footer
     visible: true
     title:
+      en: Community
       zh: Community
+      zh-TW: 社群
+      ja: コミュニティ
     link:
+      en: /community
       zh: /community
+      zh-TW: /community
+      ja: /community
     description:
+      en: Get help and contribute
       zh: Get help and contribute
+      zh-TW: 獲取幫助並做出貢獻
+      ja: ヘルプと貢献
     parent: 659608d95616f9f2-footer
   - id: 4cf2d30b6327df1b
     section: header
     visible: true
     title:
+      en: Sponsors
       zh: Sponsors
+      zh-TW: 贊助夥伴
+      ja: スポンサー
     link:
+      en: /sponsors
       zh: /sponsors
+      zh-TW: /sponsors
+      ja: /sponsors
     description:
+      en: See our project supporters
       zh: See our project supporters
+      zh-TW: 查看我們的專案支持者
+      ja: プロジェクトの支援者を見る
     parent: 659608d95616f9f2-header
   - id: 086d16ae814bda45
     section: footer
     visible: true
     title:
+      en: Sponsors
       zh: Sponsors
+      zh-TW: 贊助夥伴
+      ja: スポンサー
     link:
+      en: /sponsors
       zh: /sponsors
+      zh-TW: /sponsors
+      ja: /sponsors
     description:
+      en: See our project supporters
       zh: See our project supporters
+      zh-TW: 查看我們的專案支持者
+      ja: プロジェクトの支援者を見る
     parent: 659608d95616f9f2-footer
   - id: e91e6348157868de
     section: header
     visible: true
     title:
+      en: Security
       zh: Security
+      zh-TW: 安全
+      ja: セキュリティ
     link:
+      en: /security
       zh: /security
+      zh-TW: /security
+      ja: /security
     description:
+      en: View our security policy
       zh: View our security policy
+      zh-TW: 查看我們的安全政策
+      ja: セキュリティポリシーを見る
     parent: 659608d95616f9f2-header
   - id: 3692a0b94b9f98f2
     section: footer
     visible: true
     title:
+      en: Security
       zh: Security
+      zh-TW: 安全
+      ja: セキュリティ
     link:
+      en: /security
       zh: /security
+      zh-TW: /security
+      ja: /security
     description:
+      en: View our security policy
       zh: View our security policy
+      zh-TW: 查看我們的安全政策
+      ja: セキュリティポリシーを見る
     parent: 659608d95616f9f2-footer
   - id: 718779752b851ac0
     section: header
     visible: true
     title:
+      en: License
       zh: License
+      zh-TW: 軟體授權
+      ja: ライセンス
     link:
+      en: /license
       zh: /license
+      zh-TW: /license
+      ja: /license
     description:
+      en: Read the software license
       zh: Read the software license
+      zh-TW: 閱讀軟體授權條款
+      ja: ソフトウェアライセンスを読む
     parent: 659608d95616f9f2-header
   - id: d6be7118c815f73c
     section: footer
     visible: true
     title:
+      en: License
       zh: License
+      zh-TW: 軟體授權
+      ja: ライセンス
     link:
+      en: /license
       zh: /license
+      zh-TW: /license
+      ja: /license
     description:
+      en: Read the software license
       zh: Read the software license
+      zh-TW: 閱讀軟體授權條款
+      ja: ソフトウェアライセンスを読む
     parent: 659608d95616f9f2-footer

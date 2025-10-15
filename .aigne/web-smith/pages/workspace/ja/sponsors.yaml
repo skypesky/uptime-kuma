@@ -1,0 +1,27 @@
+meta:
+  title: "スポンサー | Uptime Kuma - ご支援ありがとうございます！"
+  description: "Uptime Kumaをスポンサーしてくださっている個人および企業の皆様に心より感謝申し上げます。皆様のご支援が、私たちのオープンソース監視ツールを維持し、発展させる力となっています。"
+sections:
+  - sectionName: "sponsorsHero"
+    sectionSummary: "スポンサーへの心からの感謝を表し、ページのポジティブで温かいトーンを設定する、情熱的なヒーローエリアです。"
+    centeredHeroTitle: "素晴らしいサポーターの皆様へ：ありがとうございます！"
+    centeredHeroDescription: "Uptime Kumaは皆様のおかげで成長を続けています！皆様の寛大なご支援により、私たちはこの強力な監視ツールを継続的に構築・改善し、すべての人に無料で提供することができています。皆様こそが、私たちの原動力です！"
+    centeredHeroActions:
+      - text: "スポンサーになる"
+        link: "https://github.com/sponsors/louislam"
+      - text: ""
+        link: ""
+  - sectionName: "sponsorsWallOfFame"
+    sectionSummary: "現在の全スポンサーのロゴを含む動的な画像を表示し、「栄誉の壁」として彼らの支援を公に称えます。"
+    featureSectionTitle: "栄誉の壁"
+    featureSectionDescription: "私たちは、これらの素晴らしい個人や組織からご支援をいただけることを大変誇りに思います。ぜひご覧ください！"
+    featureSectionBottomImage: "https://uptime.kuma.pet/sponsors?v=6"
+  - sectionName: "becomeASponsorCta"
+    sectionSummary: "ユーザーにスポンサーになるよう呼びかける、明確な行動喚起エリアです。GitHubとOpenCollectiveへの個別のボタンを提供し、簡単かつ直接的に支援できるようにします。"
+    ctaTitle: "あなたのロゴをここに掲載しませんか？"
+    ctaDescription: "素晴らしいスポンサーのコミュニティに参加し、Uptime Kumaが常に無料でオープンソースであり続けるためのご支援をお願いします。あなたに最適なプラットフォームを選んで、私たちの仲間になりましょう！"
+    cta:
+      - text: "GitHubでスポンサーになる"
+        link: "https://github.com/sponsors/louislam"
+      - text: "OpenCollectiveで支援する"
+        link: "https://opencollective.com/uptime-kuma"

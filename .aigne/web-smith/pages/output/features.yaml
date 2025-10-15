@@ -1,9 +1,23 @@
 id: 69ee505620f7efd5
-createdAt: 2025-10-15T03:15:42.837Z
-updatedAt: 2025-10-15T03:15:42.837Z
-publishedAt: 2025-10-15T03:15:42.837Z
+createdAt: 2025-10-15T03:49:21.077Z
+updatedAt: 2025-10-15T03:49:21.077Z
+publishedAt: 2025-10-15T03:49:21.077Z
 isPublic: true
 locales:
+  en:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: Uptime Kuma Features | Comprehensive Monitoring & Instant Notifications
+    description: Explore the powerful features of Uptime Kuma! From HTTP(s) and TCP
+      to DNS records, we offer comprehensive monitoring types. With over 90
+      notification service integrations, you can stay instantly informed about
+      your service status.
+    image: ""
+    header:
+      sticky: true
   zh:
     backgroundColor: ""
     style:
@@ -13,6 +27,30 @@ locales:
     title: Uptime Kuma 功能 | 全方位监控与即时通知
     description: 探索 Uptime Kuma 的强大功能！从 HTTP(s)、TCP 到 DNS
       记录，我们提供全面的监控类型。更有超过90种通知服务集成，让您即时掌握服务状态。
+    image: ""
+    header:
+      sticky: true
+  zh-TW:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: Uptime Kuma 功能 | 全方位監控與即時通知
+    description: 探索 Uptime Kuma 的強大功能！從 HTTP(s)、TCP 到 DNS 記錄，我們提供全面的監控類型。更有超過 90
+      種通知服務整合，讓您即時掌握服務狀態。
+    image: ""
+    header:
+      sticky: true
+  ja:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: Uptime Kumaの機能 | 包括的な監視と即時通知
+    description: Uptime
+      Kumaのパワフルな機能をご覧ください！HTTP(s)やTCPからDNSレコードまで、包括的な監視タイプを提供します。さらに90以上の通知サービスとの統合により、サービスのステータスを即座に把握できます。
     image: ""
     header:
       sticky: true
@@ -1376,6 +1414,27 @@ sectionIds:
   - 6edec3e84b5a8e8d
 dataSource:
   a079909189bc9634:
+    en:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Uptime Kuma is more than just an uptime monitoring tool. It's a
+                  feature-packed Swiss army knife that lets you effortlessly
+                  keep track of all your services' status, and it's completely
+                  free and open source.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: All the Monitoring Features You Need, All in One Place
+            style:
+              fontSize: '{"md":40}'
+              variant: h1
     zh:
       properties:
         9ajrz12ik7esfk1z:
@@ -1394,7 +1453,64 @@ dataSource:
             style:
               fontSize: '{"md":40}'
               variant: h1
+    zh-TW:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Uptime Kuma 不僅僅是一個正常運行時間監控工具。它是一個功能齊全的瑞士軍刀，讓您輕鬆掌控所有服務的狀態，並且完全免費和開源。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 您需要的所有監控功能，盡在於此
+            style:
+              fontSize: '{"md":40}'
+              variant: h1
+    ja:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Uptime
+                  Kumaは単なる稼働時間監視ツールではありません。すべてのサービスのステータスを簡単に把握できる、フル機能のスイスアーミーナイフのようなツールであり、完全に無料でオープンソースです。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 必要なすべての監視機能が、ここにあります
+            style:
+              fontSize: '{"md":40}'
+              variant: h1
   510667b34fa14f2b:
+    en:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: Start Installation Now
+              url: link:///installation
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: View on GitHub
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: https://github.com/louislam/uptime-kuma
+        r8t5y6u7i1o2p3a4:
+          value: 16
     zh:
       properties:
         b8x4m3n9kp7qtw5r:
@@ -1415,7 +1531,58 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma
         r8t5y6u7i1o2p3a4:
           value: 16
+    zh-TW:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 立即開始安裝
+              url: link:///installation
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: 在 GitHub 上查看
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: https://github.com/louislam/uptime-kuma
+        r8t5y6u7i1o2p3a4:
+          value: 16
+    ja:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 今すぐインストール
+              url: link:///installation
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: GitHubで見る
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: https://github.com/louislam/uptime-kuma
+        r8t5y6u7i1o2p3a4:
+          value: 16
   d79cdf28faac3108:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Monitoring Types to Cover All Your Services
+            style:
+              variant: h2
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1427,7 +1594,51 @@ dataSource:
             text: 覆盖您所有服务的监控类型
             style:
               variant: h2
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 涵蓋您所有服務的監控類型
+            style:
+              variant: h2
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        gs1rn5jmxfvpxptx:
+          value:
+            text: すべてのサービスをカバーする監視タイプ
+            style:
+              variant: h2
   8a0319c7be20285c:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: HTTP(s) / TCP Monitoring
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Perform continuous availability checks on your websites, APIs, or any TCP
+                  port to ensure your core services are always online.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1449,7 +1660,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: HTTP(s) / TCP 監控
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 對您的網站、API 或任何 TCP 連接埠進行持續的可用性檢查，確保核心服務始終在線。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: HTTP(s) / TCP 監視
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: ウェブサイト、API、または任意のTCPポートの可用性を継続的にチェックし、コアサービスが常にオンラインであることを保証します。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   3ee66b593de1e036:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:globe
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -1458,7 +1719,45 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:globe
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:globe
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   051f5382aaa30930:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: DNS Record Monitoring
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Verify that your DNS records are resolving correctly to prevent service
+                  outages caused by misconfigurations.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1480,7 +1779,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: DNS 記錄監控
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 驗證您的 DNS 記錄是否正確解析，防止因設定錯誤導致的服務中斷。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: DNSレコード監視
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: DNSレコードが正しく解決されているか検証し、設定ミスによるサービス停止を防ぎます。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   8aee431fd7b453d4:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:book-marked
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -1489,7 +1838,45 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:book-marked
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:book-marked
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   6cf87c8dd697af94:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Ping / Push Monitoring
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Check server reachability via Ping, or use Push mode to monitor the
+                  execution of scheduled tasks and cron jobs.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1511,7 +1898,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Ping / Push 監控
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 透過 Ping 檢查伺服器的可達性，或使用 Push 模式監控排程任務和 cron 作業的執行情況。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Ping / Push 監視
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Pingでサーバーの到達可能性を確認したり、Pushモードでスケジュールされたタスクやcronジョブの実行状況を監視したりできます。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   835229da4540f842:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:activity
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -1520,7 +1957,45 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:activity
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:activity
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   6c7d6356a9593b08:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Docker Container Monitoring
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Directly monitor the status of your Docker containers to ensure your
+                  containerized applications are running properly.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1542,7 +2017,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Docker 容器監控
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 直接監控 Docker 容器的運行狀態，確保您的容器化應用程式正常運作。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Dockerコンテナ監視
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Dockerコンテナの実行状態を直接監視し、コンテナ化されたアプリケーションが正常に動作していることを確認します。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   3146007f1ae8e627:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:container
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -1551,7 +2076,45 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:container
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:container
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   c29e90aa797f1e8a:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Steam Game Server
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: A boon for game community managers! Easily monitor if your Steam game
+                  server is online, keeping your players happy.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1573,7 +2136,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Steam 遊戲伺服器
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 遊戲社群管理員的福音！輕鬆監控您的 Steam 遊戲伺服器是否在線，讓玩家盡興。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Steamゲームサーバー
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: ゲームコミュニティ管理者必見！Steamゲームサーバーがオンラインかどうかを簡単に監視し、プレイヤーに最高の体験を提供します。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   37a9e660875f3168:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:gamepad-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -1582,7 +2195,45 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:gamepad-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:gamepad-2
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   9f9904bac4b8d3a3:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Keyword and JSON Query
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Go beyond just checking if a service is online. Verify that page content
+                  or API responses meet expectations for deeper monitoring.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1604,7 +2255,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 關鍵字和 JSON 查詢
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 不僅僅檢查服務是否在線，還能驗證頁面內容或 API 回應是否符合預期，實現更深層次的監控。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: キーワードとJSONクエリ
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: サービスがオンラインであるかを確認するだけでなく、ページコンテンツやAPIの応答が期待通りであるかを検証し、より深いレベルの監視を実現します。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   f3f0594beead88bb:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:search-code
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -1613,7 +2314,46 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:search-code
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:search-code
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   9f894c3242413070:
+    en:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Integrates with over 90 notification services, including Telegram,
+                  Discord, Slack, Email, and more. When your service has an
+                  issue, you'll be the first to know, no matter where you are.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Never Miss a Downtime Incident
+            style:
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
     zh:
       properties:
         9ajrz12ik7esfk1z:
@@ -1636,7 +2376,74 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
+    zh-TW:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: 整合了超過 90 種通知服務，包括 Telegram、Discord、Slack、Email
+                  等。一旦您的服務出現問題，您將第一時間收到通知，無論您身在何處。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 絕不錯過任何一次停機
+            style:
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+    ja:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Telegram、Discord、Slack、Emailなど、90種類以上の通知サービスと統合。サービスに問題が発生すると、どこにいてもすぐに通知を受け取ることができます。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: ダウンタイムを絶対に見逃さない
+            style:
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
   5efc87bc23fef37a:
+    en:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: View Full Notification List
+              url: https://github.com/louislam/uptime-kuma/tree/master/src/components/notifications
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        v9979xeclpsbvn0n:
+          value: flex-start
     zh:
       properties:
         b8x4m3n9kp7qtw5r:
@@ -1661,7 +2468,65 @@ dataSource:
           value: flex-start
         v9979xeclpsbvn0n:
           value: flex-start
+    zh-TW:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 查看完整通知列表
+              url: https://github.com/louislam/uptime-kuma/tree/master/src/components/notifications
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        v9979xeclpsbvn0n:
+          value: flex-start
+    ja:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 通知サービスの全リストを見る
+              url: https://github.com/louislam/uptime-kuma/tree/master/src/components/notifications
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        v9979xeclpsbvn0n:
+          value: flex-start
   2e2af3d4affd846d:
+    en:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://placehold.co/1440x700?text=90%2B+Notification+Channels
+            mediaKitUrl: https://placehold.co/1440x700?text=90%2B+Notification+Channels
+            width: 2445
+            height: 1394
+        jjv0hvr8wrixt1f3:
+          value: 1
     zh:
       properties:
         7m5pz8nefl5j9hqq:
@@ -1672,7 +2537,38 @@ dataSource:
             height: 1394
         jjv0hvr8wrixt1f3:
           value: 1
+    zh-TW:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://placehold.co/1440x700?text=90%2B+%E9%80%9A%E7%9F%A5%E7%AE%A1%E9%81%93
+            mediaKitUrl: https://placehold.co/1440x700?text=90%2B+%E9%80%9A%E7%9F%A5%E7%AE%A1%E9%81%93
+            width: 2445
+            height: 1394
+        jjv0hvr8wrixt1f3:
+          value: 1
+    ja:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://placehold.co/1440x700?text=90%2B+%E3%81%AE%E9%80%9A%E7%9F%A5%E3%83%81%E3%83%A3%E3%83%8D%E3%83%AB
+            mediaKitUrl: https://placehold.co/1440x700?text=90%2B+%E3%81%AE%E9%80%9A%E7%9F%A5%E3%83%81%E3%83%A3%E3%83%8D%E3%83%AB
+            width: 2445
+            height: 1394
+        jjv0hvr8wrixt1f3:
+          value: 1
   2566cd620df3e7eb:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: More Than Just Monitoring, It's a Powerful Control Center
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -1684,7 +2580,51 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 不僅僅是監控，更是強大的控制中心
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 監視だけでなく、強力なコントロールセンター
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
   188bf83f2774511b:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Elegant Status Pages
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Create beautiful, customizable status pages for your users. You can even
+                  map your own domain to transparently display service status.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1706,7 +2646,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 精美的狀態頁
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 為您的使用者建立漂亮、可自訂的狀態頁面，甚至可以綁定到您自己的網域上，透明地展示服務狀態。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 美しいステータスページ
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: ユーザー向けに美しくカスタマイズ可能なステータスページを作成し、独自のドメインに紐付けることで、サービスの稼働状況を透過的に表示できます。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   9a4665f91027d3f7:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:layout-dashboard
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -1715,7 +2705,45 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:layout-dashboard
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:layout-dashboard
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   3d914af2157737bc:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 20-Second Monitoring Interval
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Perform checks at intervals as frequent as 20 seconds, allowing you to
+                  detect and respond to issues in near real-time.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1737,7 +2765,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 20 秒監控間隔
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 以高達 20 秒的頻率進行檢查，讓您能夠以近乎即時的速度發現並回應問題。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 20秒間隔の監視
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 最短20秒間隔でのチェックにより、ほぼリアルタイムで問題を検出し、対応することが可能になります。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   834e8f1413211851:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:timer
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -1746,7 +2824,45 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:timer
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:timer
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   824549dfc765923c:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Multi-Language Support
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: With a global community, Uptime Kuma supports multiple languages, allowing
+                  you to operate in the one you're most familiar with.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1768,7 +2884,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 多語言支援
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Uptime Kuma 擁有一個全球化的社群，支援多種語言，讓您可以使用最熟悉的語言進行操作。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 多言語対応
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Uptime Kumaにはグローバルなコミュニティがあり、多言語をサポートしているため、最も使い慣れた言語で操作できます。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   75224870c5e4c765:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:languages
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -1777,7 +2943,46 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:languages
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:languages
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   dd7071b2646afbc7:
+    en:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Proxy & Security
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: Supports monitoring through proxy servers and offers Two-Factor
+                  Authentication (2FA) to ensure your monitoring system is
+                  secure.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         v5utpm7bu9yvdpnq:
@@ -1799,7 +3004,57 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 代理與安全
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 支援透過代理伺服器進行監控，並提供雙因素驗證（2FA）支援，確保您的監控系統安全無虞。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: プロキシとセキュリティ
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: プロキシサーバー経由での監視をサポートし、二要素認証（2FA）にも対応。監視システムの安全性を確保します。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   a8774863f186f747:
+    en:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:shield-check
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
     zh:
       properties:
         5ek4m0kw9cu0ndns:
@@ -1808,7 +3063,34 @@ dataSource:
           value: primary.main
         529qbwiam7oypw8e:
           value: 40px
+    zh-TW:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:shield-check
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+    ja:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:shield-check
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
   ebeb67accf8b6014:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: A Beautiful UI/UX Designed for Modern Users
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -1820,7 +3102,52 @@ dataSource:
           value: flex-start
         kyg0hdy5uqq4gc1o:
           value: flex-start
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 為現代使用者設計的精美 UI/UX
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 現代のユーザー向けに設計された美しいUI/UX
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
   284140cff67363d6:
+    en:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: ""
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-end
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759204131040-9gxbxfmi5
+                type: text
+                text: Say goodbye to outdated, complex interfaces. Uptime Kuma offers a
+                  responsive, intuitive, and beautiful dashboard that makes
+                  monitoring a pleasure.
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -1842,7 +3169,58 @@ dataSource:
                   color: ""
                   fontSize: 16px
                   variant: body1
+    zh-TW:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: ""
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-end
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759204131040-9gxbxfmi5
+                type: text
+                text: 告別陳舊、複雜的介面。Uptime Kuma 提供了一個反應迅速、直觀且美觀的儀表板，讓監控成為一種享受。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+    ja:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: ""
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-end
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759204131040-9gxbxfmi5
+                type: text
+                text: 古くて複雑なインターフェースはもう不要です。Uptime
+                  Kumaは、レスポンシブで直感的、かつ美しいダッシュボードを提供し、監視を快適な体験にします。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
   21231ead78a57e50:
+    en:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://placehold.co/1440x700?text=Uptime+Kuma+Dashboard
+            mediaKitUrl: https://placehold.co/1440x700?text=Uptime+Kuma+Dashboard
+            width: 3024
+            height: 1034
     zh:
       properties:
         7m5pz8nefl5j9hqq:
@@ -1851,7 +3229,46 @@ dataSource:
             mediaKitUrl: https://placehold.co/1440x700?text=Uptime+Kuma+%E4%BB%AA%E8%A1%A8%E7%9B%98
             width: 3024
             height: 1034
+    zh-TW:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://placehold.co/1440x700?text=Uptime+Kuma+%E5%84%80%E8%A1%A8%E6%9D%BF
+            mediaKitUrl: https://placehold.co/1440x700?text=Uptime+Kuma+%E5%84%80%E8%A1%A8%E6%9D%BF
+            width: 3024
+            height: 1034
+    ja:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://placehold.co/1440x700?text=Uptime+Kuma+%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5%E3%83%9C%E3%83%BC%E3%83%89
+            mediaKitUrl: https://placehold.co/1440x700?text=Uptime+Kuma+%E3%83%80%E3%83%83%E3%82%B7%E3%83%A5%E3%83%9C%E3%83%BC%E3%83%89
+            width: 3024
+            height: 1034
   b2fd4755c489229c:
+    en:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Uptime Kuma is completely free, open source, and can be deployed in
+                  minutes. Join thousands of satisfied users today!
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Ready to Experience the Ultimate in Monitoring?
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
     zh:
       properties:
         9ajrz12ik7esfk1z:
@@ -1874,7 +3291,73 @@ dataSource:
           value: center
         kyg0hdy5uqq4gc1o:
           value: center
+    zh-TW:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Uptime Kuma 完全免費、開源，並且可以在幾分鐘內完成部署。立即加入成千上萬滿意使用者的行列！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 準備好體驗極致的監控了嗎？
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+    ja:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Uptime Kumaは完全に無料でオープンソースであり、数分でデプロイできます。満足している何千ものユーザーの仲間入りをしましょう！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 究極の監視体験を始める準備はできましたか？
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
   508276fbeb60a116:
+    en:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: View Installation Guide
+              url: link:///installation
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: Join Our Community
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: link:///community
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
     zh:
       properties:
         b8x4m3n9kp7qtw5r:
@@ -1889,6 +3372,50 @@ dataSource:
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: 加入我们的社区
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: link:///community
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
+    zh-TW:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 查看安裝指南
+              url: link:///installation
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: 加入我們的社群
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: link:///community
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center
+    ja:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: インストールガイドを見る
+              url: link:///installation
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: コミュニティに参加する
               variant: outlined
               borderColor: common.white
               size: large

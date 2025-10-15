@@ -1,0 +1,27 @@
+meta:
+  title: "Sponsors | Uptime Kuma - Thank You For Your Support!"
+  description: "A heartfelt thank you to the individuals and companies who sponsor Uptime Kuma. Your support keeps our open-source monitoring tool alive and thriving."
+sections:
+  - sectionName: "sponsorsHero"
+    sectionSummary: "An enthusiastic hero section expressing sincere gratitude to sponsors, setting a positive and warm tone for the page."
+    centeredHeroTitle: "To Our Amazing Supporters: Thank You!"
+    centeredHeroDescription: "Uptime Kuma thrives because of you! Your generous support allows us to continue building, improving, and offering this powerful monitoring tool for free to everyone. You are what keeps us going!"
+    centeredHeroActions:
+      - text: "Become a Sponsor"
+        link: "https://github.com/sponsors/louislam"
+      - text: ""
+        link: ""
+  - sectionName: "sponsorsWallOfFame"
+    sectionSummary: "Displays a dynamic image with the logos of all current sponsors, serving as a 'wall of fame' to publicly acknowledge their support."
+    featureSectionTitle: "Our Wall of Fame"
+    featureSectionDescription: "We are incredibly proud to be supported by these outstanding individuals and organizations. Check them out!"
+    featureSectionBottomImage: "https://uptime.kuma.pet/sponsors?v=6"
+  - sectionName: "becomeASponsorCta"
+    sectionSummary: "A clear call-to-action area inviting users to become sponsors, with separate buttons linking to GitHub and OpenCollective to make supporting simple and direct."
+    ctaTitle: "Want to see your logo here?"
+    ctaDescription: "Join our community of distinguished sponsors and help keep Uptime Kuma free and open-source forever. Choose the platform that works best for you and become a part of our journey!"
+    cta:
+      - text: "Sponsor via GitHub"
+        link: "https://github.com/sponsors/louislam"
+      - text: "Support on OpenCollective"
+        link: "https://opencollective.com/uptime-kuma"
