@@ -1,0 +1,28 @@
+- path: /home
+  navigation:
+    title: Home
+    description: Return to the homepage
+- path: /features
+  navigation:
+    title: Features
+    description: Explore all monitoring capabilities
+- path: /installation
+  navigation:
+    title: Installation
+    description: Learn how to install Uptime Kuma
+- path: /community
+  navigation:
+    title: Community
+    description: Get help and contribute
+- path: /sponsors
+  navigation:
+    title: Sponsors
+    description: See our project supporters
+- path: /security
+  navigation:
+    title: Security
+    description: View our security policy
+- path: /license
+  navigation:
+    title: License
+    description: Read the software license

@@ -1,0 +1,422 @@
+id: dbb3bf7d4cbcc8d9
+createdAt: 2025-10-15T03:15:42.856Z
+updatedAt: 2025-10-15T03:15:42.856Z
+publishedAt: 2025-10-15T03:15:42.856Z
+isPublic: true
+locales:
+  zh:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: 赞助商 | Uptime Kuma - 感谢您的支持！
+    description: 衷心感谢赞助 Uptime Kuma 的个人和公司。您的支持让我们的开源监控工具保持活跃和蓬勃发展。
+    header:
+      sticky: true
+sections:
+  6d4ea39506007d1a:
+    id: 6d4ea39506007d1a
+    name: Centered Hero
+    component: layout-block
+    sections:
+      7458acd55e6fed14:
+        id: 7458acd55e6fed14
+        name: Section Layout
+        component: layout-block
+        sections:
+          d0385ae9d58c7d2a:
+            id: d0385ae9d58c7d2a
+            name: CTA
+            component: layout-block
+            sections:
+              a079909189bc9634:
+                id: a079909189bc9634
+                name: Description
+                component: custom-component
+                config:
+                  useCache: true
+                  componentId: xoHu0J44322kDYc-
+                sectionIds: []
+              510667b34fa14f2b:
+                id: 510667b34fa14f2b
+                name: Action
+                component: custom-component
+                config:
+                  useCache: true
+                  componentId: a44r0SiGV9AFn2Fj
+                sectionIds: []
+            sectionIds:
+              - a079909189bc9634
+              - 510667b34fa14f2b
+            config:
+              paddingY: normal
+              gap: large
+              maxWidth: full
+              paddingX: normal
+              gridSettings:
+                desktop:
+                  a079909189bc9634:
+                    x: 2
+                    y: 0
+                    w: 8
+                    h: 1
+                  510667b34fa14f2b:
+                    x: 0
+                    y: 1
+                    w: 12
+                    h: 1
+              background: transparent
+              borderRadius: small
+        sectionIds:
+          - d0385ae9d58c7d2a
+        config:
+          gridSettings:
+            desktop:
+              d0385ae9d58c7d2a:
+                x: 0
+                y: 0
+                w: 12
+                h: 1
+          paddingX: none
+          borderRadius: small
+          paddingY: none
+          background: transparent
+    sectionIds:
+      - 7458acd55e6fed14
+    config:
+      gridSettings:
+        desktop:
+          7458acd55e6fed14:
+            x: 0
+            y: 0
+            w: 12
+            h: 1
+      background: background.paper
+      paddingY: normal
+      borderRadius: small
+      paddingX: none
+  879f85a535d3a646:
+    id: 879f85a535d3a646
+    name: Feature Section_1
+    component: layout-block
+    sections:
+      0d5d2c71249cd389:
+        id: 0d5d2c71249cd389
+        name: Title
+        component: layout-block
+        sections:
+          0e5fe165ba3c7f99:
+            id: 0e5fe165ba3c7f99
+            name: Title
+            component: custom-component
+            config:
+              useCache: true
+              componentId: xoHu0J44322kDYc-
+            sectionIds: []
+          748179d273d446ac:
+            id: 748179d273d446ac
+            name: Description
+            component: custom-component
+            config:
+              useCache: true
+              componentId: xoHu0J44322kDYc-
+            sectionIds: []
+        sectionIds:
+          - 0e5fe165ba3c7f99
+          - 748179d273d446ac
+        config:
+          gap: small
+          paddingX: none
+          gridSettings:
+            desktop:
+              0e5fe165ba3c7f99:
+                x: 0
+                y: 0
+                w: 6
+                h: 1
+              748179d273d446ac:
+                x: 6
+                y: 0
+                w: 6
+                h: 1
+            mobile:
+              0e5fe165ba3c7f99:
+                id: 0e5fe165ba3c7f99
+          alignContent: start
+      c896138f87be7ed5:
+        id: c896138f87be7ed5
+        name: Logs
+        component: layout-block
+        sections:
+          0823d7b54a833028:
+            id: 0823d7b54a833028
+            name: Card01
+            component: layout-block
+            sections:
+              a7ea2f2a65d211dc:
+                id: a7ea2f2a65d211dc
+                name: Media
+                component: custom-component
+                config:
+                  useCache: true
+                  componentId: xoHu0JPjPs122kaaa-
+                sectionIds: []
+            sectionIds:
+              - a7ea2f2a65d211dc
+            config:
+              background: background.paper
+              paddingX: custom:32px
+              paddingY: custom:32px
+              borderRadius: small
+              gap: normal
+              border: solid
+              alignContent: center
+              gridSettings:
+                desktop:
+                  a7ea2f2a65d211dc:
+                    x: 0
+                    y: 0
+                    w: 12
+                    h: 1
+                mobile:
+                  t7hco63shuiga559:
+                    x: 0
+                    y: 1
+                    w: 12
+                    h: 1
+                    id: t7hco63shuiga559
+        sectionIds:
+          - 0823d7b54a833028
+        config:
+          gap: small
+          paddingX: none
+          gridSettings:
+            desktop:
+              0823d7b54a833028:
+                x: 0
+                y: 0
+                w: 12
+                h: 1
+            mobile:
+              0823d7b54a833028:
+                x: 0
+                y: 2
+                w: 12
+                h: 1
+                id: 0823d7b54a833028
+    sectionIds:
+      - 0d5d2c71249cd389
+      - c896138f87be7ed5
+    config:
+      gridSettings:
+        desktop:
+          0d5d2c71249cd389:
+            x: 0
+            y: 0
+            w: 12
+            h: 1
+          c896138f87be7ed5:
+            x: 0
+            y: 1
+            w: 12
+            h: 1
+      gap: normal
+      paddingY: none
+      paddingX: none
+  58c96007fa8ad7fa:
+    id: 58c96007fa8ad7fa
+    name: Full Background Hero
+    component: layout-block
+    sections:
+      e99762f365dd6fa6:
+        id: e99762f365dd6fa6
+        name: CTA
+        component: layout-block
+        sections:
+          469c4ac987c6a29b:
+            id: 469c4ac987c6a29b
+            name: Description
+            component: custom-component
+            config:
+              useCache: true
+              componentId: xoHu0J44322kDYc-
+            sectionIds: []
+          9c374e3f2f113acf:
+            id: 9c374e3f2f113acf
+            name: Action
+            component: custom-component
+            config:
+              useCache: true
+              componentId: a44r0SiGV9AFn2Fj
+            sectionIds: []
+        sectionIds:
+          - 469c4ac987c6a29b
+          - 9c374e3f2f113acf
+        config:
+          gridSettings:
+            desktop:
+              469c4ac987c6a29b:
+                x: 2
+                y: 0
+                w: 8
+                h: 1
+              9c374e3f2f113acf:
+                x: 0
+                y: 1
+                w: 12
+                h: 1
+          paddingY: large
+          gap: large
+          maxWidth: full
+          paddingX: none
+          background: background.paper
+          borderRadius: small
+    sectionIds:
+      - e99762f365dd6fa6
+    config:
+      gridSettings:
+        desktop:
+          e99762f365dd6fa6:
+            x: 0
+            y: 0
+            w: 12
+            h: 1
+      background: transparent
+      paddingY: none
+      backgroundFullWidth: false
+      paddingX: none
+sectionIds:
+  - 6d4ea39506007d1a
+  - 879f85a535d3a646
+  - 58c96007fa8ad7fa
+dataSource:
+  a079909189bc9634:
+    zh:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: Uptime Kuma 因你们而蓬勃发展！是你们的慷慨支持，让我们能够持续构建、改进并向所有人免费提供这款强大的监控工具。你们就是我们前进的动力！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 致我们了不起的支持者：谢谢你们！
+            style:
+              fontSize: '{"md":40}'
+              variant: h1
+  510667b34fa14f2b:
+    zh:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 成为赞助商
+              url: https://github.com/sponsors/louislam
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: primary.main
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+  0e5fe165ba3c7f99:
+    zh:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 我们的荣誉墙
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+  748179d273d446ac:
+    zh:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: ""
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: flex-end
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759204131040-9gxbxfmi5
+                type: text
+                text: 我们为能得到这些杰出的个人和组织的支持而感到无比自豪。快来看看他们！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+  a7ea2f2a65d211dc:
+    zh:
+      properties:
+        7m5pz8nefl5j9hqq:
+          value:
+            url: https://uptime.kuma.pet/sponsors?v=6
+            mediaKitUrl: https://uptime.kuma.pet/sponsors?v=6
+            width: 3024
+            height: 1034
+  469c4ac987c6a29b:
+    zh:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: 加入我们杰出的赞助商社区，帮助 Uptime Kuma 永远保持免费和开源。选择最适合您的平台，成为我们的一份子！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 想在这里看到您的 Logo 吗？
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+  9c374e3f2f113acf:
+    zh:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 通过 GitHub 赞助
+              url: https://github.com/sponsors/louislam
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: 支持 OpenCollective
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: https://opencollective.com/uptime-kuma
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center

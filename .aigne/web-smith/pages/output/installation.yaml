@@ -1,0 +1,794 @@
+id: 8d5887e9ab6a37a8
+createdAt: 2025-10-15T03:15:42.849Z
+updatedAt: 2025-10-15T03:15:42.849Z
+publishedAt: 2025-10-15T03:15:42.849Z
+isPublic: true
+locales:
+  zh:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: Uptime Kuma 安装指南 | Docker 与非 Docker 环境
+    description: 按照我们详尽的分步指南，轻松安装 Uptime Kuma。提供 Docker（推荐）和非 Docker 环境的安装说明，包括系统要求和后台服务设置。
+    header:
+      sticky: true
+sections:
+  6d4ea39506007d1a:
+    id: 6d4ea39506007d1a
+    name: Centered Hero
+    component: layout-block
+    sections:
+      7458acd55e6fed14:
+        id: 7458acd55e6fed14
+        name: Section Layout
+        component: layout-block
+        sections:
+          d0385ae9d58c7d2a:
+            id: d0385ae9d58c7d2a
+            name: CTA
+            component: layout-block
+            sections:
+              a079909189bc9634:
+                id: a079909189bc9634
+                name: Description
+                component: custom-component
+                config:
+                  useCache: true
+                  componentId: xoHu0J44322kDYc-
+                sectionIds: []
+            sectionIds:
+              - a079909189bc9634
+            config:
+              paddingY: normal
+              gap: large
+              maxWidth: full
+              paddingX: normal
+              gridSettings:
+                desktop:
+                  a079909189bc9634:
+                    x: 2
+                    y: 0
+                    w: 8
+                    h: 1
+              background: transparent
+              borderRadius: small
+        sectionIds:
+          - d0385ae9d58c7d2a
+        config:
+          gridSettings:
+            desktop:
+              d0385ae9d58c7d2a:
+                x: 0
+                y: 0
+                w: 12
+                h: 1
+          paddingX: none
+          borderRadius: small
+          paddingY: none
+          background: transparent
+    sectionIds:
+      - 7458acd55e6fed14
+    config:
+      gridSettings:
+        desktop:
+          7458acd55e6fed14:
+            x: 0
+            y: 0
+            w: 12
+            h: 1
+      background: background.paper
+      paddingY: normal
+      borderRadius: small
+      paddingX: none
+  132fd8695b7e37f9:
+    id: 132fd8695b7e37f9
+    name: Testimonials/Reviews
+    component: layout-block
+    sections:
+      e15147f296c6dc0f:
+        id: e15147f296c6dc0f
+        name: Title
+        component: layout-block
+        sections:
+          11087eae134dbead:
+            id: 11087eae134dbead
+            name: LayoutTitle
+            component: custom-component
+            config:
+              useCache: true
+              componentId: xoHu0J44322kDYc-
+            sectionIds: []
+        sectionIds:
+          - 11087eae134dbead
+        config:
+          gap: small
+          paddingX: none
+          alignContent: start
+          gridSettings:
+            desktop:
+              11087eae134dbead:
+                x: 0
+                y: 0
+                w: 12
+                h: 1
+            mobile:
+              11087eae134dbead:
+                id: 11087eae134dbead
+      4325987d6eab2b49:
+        id: 4325987d6eab2b49
+        name: Cards
+        component: layout-block
+        sections:
+          87b3bbe2252a5c56:
+            id: 87b3bbe2252a5c56
+            name: Cards-1
+            component: layout-block
+            sections:
+              5ed5bb1a180d1e5e:
+                id: 5ed5bb1a180d1e5e
+                name: RichText
+                component: custom-component
+                config:
+                  useCache: true
+                  componentId: xoHu0J44322kDYc-
+                sectionIds: []
+              3eed3d992f660911:
+                id: 3eed3d992f660911
+                name: Section Layout
+                component: layout-block
+                sections:
+                  dd78c3458b1c6d5b:
+                    id: dd78c3458b1c6d5b
+                    name: Code
+                    component: custom-component
+                    config:
+                      useCache: true
+                      componentId: 2EHGy3vwxlS9JGr2
+                    sectionIds: []
+                sectionIds:
+                  - dd78c3458b1c6d5b
+                config:
+                  gridSettings:
+                    desktop:
+                      dd78c3458b1c6d5b:
+                        x: 0
+                        y: 0
+                        w: 12
+                        h: 1
+                  borderRadius: small
+                  border: terminal
+            sectionIds:
+              - 5ed5bb1a180d1e5e
+              - 3eed3d992f660911
+            config:
+              gridSettings:
+                desktop:
+                  5ed5bb1a180d1e5e:
+                    x: 0
+                    y: 0
+                    w: 12
+                    h: 1
+                  3eed3d992f660911:
+                    x: 0
+                    y: 1
+                    w: 12
+                    h: 1
+              paddingX: custom:32px
+              gap: normal
+              paddingY: custom:32px
+              background: background.paper
+              border: solid
+              borderRadius: small
+              alignContent: space-between
+        sectionIds:
+          - 87b3bbe2252a5c56
+        config:
+          gridSettings:
+            desktop:
+              87b3bbe2252a5c56:
+                x: 0
+                y: 0
+                w: 12
+                h: 1
+            mobile:
+              87b3bbe2252a5c56:
+                x: 0
+                y: 0
+                w: 12
+                h: 1
+          gap: normal
+          paddingX: none
+    sectionIds:
+      - e15147f296c6dc0f
+      - 4325987d6eab2b49
+    config:
+      gridSettings:
+        desktop:
+          4325987d6eab2b49:
+            x: 0
+            y: 1
+            w: 12
+            h: 1
+          e15147f296c6dc0f:
+            x: 0
+            y: 0
+            w: 12
+            h: 1
+      gap: normal
+      paddingY: none
+      paddingX: none
+  0bd9c287b4dac2cd:
+    id: 0bd9c287b4dac2cd
+    name: Testimonials/Reviews
+    component: layout-block
+    sections:
+      3671fed2c6e10a65:
+        id: 3671fed2c6e10a65
+        name: Title
+        component: layout-block
+        sections:
+          10c868964f4822ae:
+            id: 10c868964f4822ae
+            name: LayoutTitle
+            component: custom-component
+            config:
+              useCache: true
+              componentId: xoHu0J44322kDYc-
+            sectionIds: []
+        sectionIds:
+          - 10c868964f4822ae
+        config:
+          gap: small
+          paddingX: none
+          alignContent: start
+          gridSettings:
+            desktop:
+              10c868964f4822ae:
+                x: 0
+                y: 0
+                w: 12
+                h: 1
+            mobile:
+              10c868964f4822ae:
+                id: 10c868964f4822ae
+      9c29689559529814:
+        id: 9c29689559529814
+        name: Cards
+        component: layout-block
+        sections:
+          e062dc285fdab938:
+            id: e062dc285fdab938
+            name: Cards-1
+            component: layout-block
+            sections:
+              d6415ec1d624285f:
+                id: d6415ec1d624285f
+                name: Title
+                component: custom-component
+                config:
+                  useCache: true
+                  componentId: xoHu0J44322kDYc-
+                sectionIds: []
+              7ee4dec4719befe7:
+                id: 7ee4dec4719befe7
+                name: Icon
+                component: layout-block
+                sections:
+                  c2c0c505651f861a:
+                    id: c2c0c505651f861a
+                    name: Icon
+                    component: custom-component
+                    config:
+                      useCache: true
+                      componentId: YwuDiIbyyF5vfGpt
+                    sectionIds: []
+                sectionIds:
+                  - c2c0c505651f861a
+                config:
+                  gridSettings:
+                    desktop:
+                      c2c0c505651f861a:
+                        x: 0
+                        y: 0
+                        w: 12
+                        h: 1
+                  background: transparent
+                  height: 100%
+                  borderRadius: custom:0px
+                  alignContent: start
+            sectionIds:
+              - d6415ec1d624285f
+              - 7ee4dec4719befe7
+            config:
+              gridSettings:
+                desktop:
+                  d6415ec1d624285f:
+                    x: 0
+                    y: 1
+                    w: 12
+                    h: 1
+                  7ee4dec4719befe7:
+                    x: 0
+                    y: 0
+                    w: 6
+                    h: 1
+                mobile:
+                  d6415ec1d624285f:
+                    x: 0
+                    y: 1
+                    w: 12
+                    h: 1
+                  7ee4dec4719befe7:
+                    x: 0
+                    y: 0
+                    w: 12
+                    h: 1
+              background: background.paper
+              paddingX: custom:32px
+              paddingY: custom:32px
+              borderRadius: small
+              gap: normal
+              border: solid
+              alignContent: start
+          765b175b45d4d54d:
+            id: 765b175b45d4d54d
+            name: Cards-2
+            component: layout-block
+            sections:
+              fc089fe336677523:
+                id: fc089fe336677523
+                name: RichText
+                component: custom-component
+                config:
+                  useCache: true
+                  componentId: xoHu0J44322kDYc-
+                sectionIds: []
+              731554d1b185bfb6:
+                id: 731554d1b185bfb6
+                name: Section Layout
+                component: layout-block
+                sections:
+                  7134d2bc2ec175ad:
+                    id: 7134d2bc2ec175ad
+                    name: Code
+                    component: custom-component
+                    config:
+                      useCache: true
+                      componentId: 2EHGy3vwxlS9JGr2
+                    sectionIds: []
+                sectionIds:
+                  - 7134d2bc2ec175ad
+                config:
+                  gridSettings:
+                    desktop:
+                      7134d2bc2ec175ad:
+                        x: 0
+                        y: 0
+                        w: 12
+                        h: 1
+                  borderRadius: small
+                  border: terminal
+            sectionIds:
+              - fc089fe336677523
+              - 731554d1b185bfb6
+            config:
+              gridSettings:
+                desktop:
+                  fc089fe336677523:
+                    x: 0
+                    y: 0
+                    w: 12
+                    h: 1
+                  731554d1b185bfb6:
+                    x: 0
+                    y: 1
+                    w: 12
+                    h: 1
+              paddingX: custom:32px
+              gap: normal
+              paddingY: custom:32px
+              background: background.paper
+              border: solid
+              borderRadius: small
+              alignContent: space-between
+        sectionIds:
+          - e062dc285fdab938
+          - 765b175b45d4d54d
+        config:
+          gridSettings:
+            desktop:
+              e062dc285fdab938:
+                x: 0
+                y: 0
+                w: 12
+                h: 1
+              765b175b45d4d54d:
+                x: 0
+                y: 1
+                w: 12
+                h: 1
+            mobile:
+              e062dc285fdab938:
+                x: 0
+                y: 0
+                w: 12
+                h: 1
+              765b175b45d4d54d:
+                x: 0
+                y: 1
+                w: 12
+                h: 1
+          gap: normal
+          paddingX: none
+    sectionIds:
+      - 3671fed2c6e10a65
+      - 9c29689559529814
+    config:
+      gridSettings:
+        desktop:
+          9c29689559529814:
+            x: 0
+            y: 1
+            w: 12
+            h: 1
+          3671fed2c6e10a65:
+            x: 0
+            y: 0
+            w: 12
+            h: 1
+      gap: normal
+      paddingY: none
+      paddingX: none
+  8ea02137b1384131:
+    id: 8ea02137b1384131
+    name: FAQs_2
+    component: layout-block
+    sections:
+      69c7dd4036e9708e:
+        id: 69c7dd4036e9708e
+        name: Title
+        component: custom-component
+        config:
+          useCache: true
+          componentId: xoHu0J44322kDYc-
+        sectionIds: []
+      bb070bd6d4642bf3:
+        id: bb070bd6d4642bf3
+        name: FaqComponentV2
+        component: custom-component
+        config:
+          useCache: true
+          componentId: 4MikfrDpecX9hUD6
+        sectionIds: []
+    sectionIds:
+      - 69c7dd4036e9708e
+      - bb070bd6d4642bf3
+    config:
+      gridSettings:
+        desktop:
+          bb070bd6d4642bf3:
+            x: 0
+            y: 1
+            w: 12
+            h: 1
+          69c7dd4036e9708e:
+            x: 0
+            y: 0
+            w: 12
+            h: 1
+      paddingX: none
+      gap: normal
+      paddingY: none
+  d56d9e831889abb5:
+    id: d56d9e831889abb5
+    name: Full Background Hero
+    component: layout-block
+    sections:
+      d66823edd1527d2e:
+        id: d66823edd1527d2e
+        name: CTA
+        component: layout-block
+        sections:
+          db2d6e57316f086b:
+            id: db2d6e57316f086b
+            name: Description
+            component: custom-component
+            config:
+              useCache: true
+              componentId: xoHu0J44322kDYc-
+            sectionIds: []
+          06080d017bac5b6d:
+            id: 06080d017bac5b6d
+            name: Action
+            component: custom-component
+            config:
+              useCache: true
+              componentId: a44r0SiGV9AFn2Fj
+            sectionIds: []
+        sectionIds:
+          - db2d6e57316f086b
+          - 06080d017bac5b6d
+        config:
+          gridSettings:
+            desktop:
+              db2d6e57316f086b:
+                x: 2
+                y: 0
+                w: 8
+                h: 1
+              06080d017bac5b6d:
+                x: 0
+                y: 1
+                w: 12
+                h: 1
+          paddingY: large
+          gap: large
+          maxWidth: full
+          paddingX: none
+          background: background.paper
+          borderRadius: small
+    sectionIds:
+      - d66823edd1527d2e
+    config:
+      gridSettings:
+        desktop:
+          d66823edd1527d2e:
+            x: 0
+            y: 0
+            w: 12
+            h: 1
+      background: transparent
+      paddingY: none
+      backgroundFullWidth: false
+      paddingX: none
+sectionIds:
+  - 6d4ea39506007d1a
+  - 132fd8695b7e37f9
+  - 0bd9c287b4dac2cd
+  - 8ea02137b1384131
+  - d56d9e831889abb5
+dataSource:
+  a079909189bc9634:
+    zh:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: 无论您偏爱 Docker 的便捷，还是希望进行原生安装，我们都为您准备了清晰的指南。只需几分钟，即可开始监控您的服务！
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 轻松启动并运行 Uptime Kuma
+            style:
+              fontSize: '{"md":40}'
+              variant: h1
+  11087eae134dbead:
+    zh:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        gs1rn5jmxfvpxptx:
+          value:
+            text: Docker 安装（推荐）
+            style:
+              variant: h2
+  5ed5bb1a180d1e5e:
+    zh:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 最快、最简单的方式
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: 只需一行命令，即可通过 Docker 启动 Uptime
+                  Kuma。这是我们推荐的方法，因为它能将所有依赖项打包，确保环境一致、部署迅速。运行后，在浏览器中访问
+                  http://localhost:3001 即可。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+  dd78c3458b1c6d5b:
+    zh:
+      properties:
+        a7frn5jmx5vpxpt3:
+          value: docker run -d --restart=always -p 3001:3001 -v uptime-kuma:/app/data
+            --name uptime-kuma louislam/uptime-kuma:1
+        b2jrz12ik7esf93z:
+          value: bash
+        d8hvf7cxz93jk5p:
+          value: 1rem
+        qvxiyadgn5bj6oq8:
+          value: false
+  10c868964f4822ae:
+    zh:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 非 Docker 环境安装
+            style:
+              variant: h2
+  d6415ec1d624285f:
+    zh:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 第一步：准备工作与系统要求
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759143324880-zr95ywd04
+                type: text
+                text: 在开始之前，请确保您的系统已安装 Node.js (18+), npm 9+, Git, 以及用于后台运行的 pm2。这些是保证 Uptime
+                  Kuma 顺利运行的基础。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+  c2c0c505651f861a:
+    zh:
+      properties:
+        5ek4m0kw9cu0ndns:
+          value: lucide:clipboard-check
+        gugqsxx3xyveuu8n:
+          value: primary.main
+        529qbwiam7oypw8e:
+          value: 40px
+  fc089fe336677523:
+    zh:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 第二步：执行安装命令
+            style:
+              variant: h4
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759185456428-p8i1jjk33
+                type: text
+                text: 万事俱备！现在，打开您的终端，按顺序执行以下命令，即可完成安装并启动 Uptime Kuma。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+  7134d2bc2ec175ad:
+    zh:
+      properties:
+        a7frn5jmx5vpxpt3:
+          value: |-
+            # 1. 克隆项目仓库
+            git clone https://github.com/louislam/uptime-kuma.git
+
+            # 2. 进入项目目录
+            cd uptime-kuma
+
+            # 3. 安装依赖
+            npm run setup
+
+            # 4. 使用 PM2 在后台启动应用
+            pm install pm2 -g && pm2 install pm2-logrotate
+            pm start server/server.js --name uptime-kuma
+        b2jrz12ik7esf93z:
+          value: bash
+        d8hvf7cxz93jk5p:
+          value: 1rem
+        qvxiyadgn5bj6oq8:
+          value: false
+  69c7dd4036e9708e:
+    zh:
+      properties:
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 进阶操作与后续步骤
+            style:
+              variant: h2
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+        9ajrz12ik7esfk1z:
+          value:
+            list: []
+  bb070bd6d4642bf3:
+    zh:
+      properties:
+        4221qi1bxy322mf4:
+          value:
+            - title: 如何进行高级安装或使用反向代理？
+              answer: 当然可以！对于更复杂的设置，例如配置反向代理，我们准备了详细的维基指南。请访问我们的 GitHub Wiki 页面查找完整说明。
+            - title: 如何更新我的 Uptime Kuma 实例？
+              answer: 保持最新版本非常简单！我们同样在 Wiki 上提供了详细的更新指南，确保您的升级过程顺畅无忧。
+            - title: 安装成功了！接下来该做什么？
+              answer: 太棒了！现在是时候发挥创意了。立即开始添加您的第一个监控项，配置通知渠道，并设计一个漂亮的状态页面吧！尽情探索所有功能！
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+            - title: ""
+              answer: ""
+  db2d6e57316f086b:
+    zh:
+      properties:
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759121327460-gc8w9kaxt
+                type: text
+                text: 加入我们充满活力的社区！无论您是遇到了问题，还是有绝妙的新功能想法，我们都欢迎您在 GitHub 上与我们交流。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+        gs1rn5jmxfvpxptx:
+          value:
+            text: 需要帮助或想参与贡献？
+            style:
+              color: ""
+              variant: h1
+        v5utpm7bu9yvdpnq:
+          value: center
+        kyg0hdy5uqq4gc1o:
+          value: center
+  06080d017bac5b6d:
+    zh:
+      properties:
+        b8x4m3n9kp7qtw5r:
+          value:
+            - id: btn-default-1
+              type: link
+              text: 前往社区页面
+              url: link:///community
+              variant: contained
+              size: large
+              target: _self
+              needLogin: false
+            - id: btn-1759121436561-6r9xmg35x
+              text: ""
+              variant: outlined
+              borderColor: common.white
+              size: large
+              url: ""
+        r8t5y6u7i1o2p3a4:
+          value: 16
+        v5utpm7bu9yvdpnq:
+          value: center

@@ -1,0 +1,12 @@
+meta:
+  title: "MIT 许可证 - Uptime Kuma"
+  description: "Uptime Kuma 是根据 MIT 许可证分发的开源软件。阅读完整的许可证，了解有关权限和限制的详细信息。"
+  image: ""
+sections:
+  - sectionName: "licenseDisplay"
+    sectionSummary: "此部分清晰地展示了 Uptime Kuma 的 MIT 许可证全文，为用户和贡献者提供了法律透明度。它使用代码块组件来确保文本格式正确且易于阅读。"
+    verticalHeroTitle: "MIT 许可证"
+    verticalHeroDescription: "Uptime Kuma 是自由开源软件，根据以下 MIT 许可证的条款进行分发。这赋予了您广泛的使用、修改和分发自由，确保项目保持开放和协作。"
+    verticalHeroCode:
+      name: "LICENSE"
+      content: "MIT License\n\nCopyright (c) 2021 Louis Lam\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE."

@@ -1,0 +1,183 @@
+id: 4c7d86ebe658d3af
+createdAt: 2025-10-15T03:15:42.851Z
+updatedAt: 2025-10-15T03:15:42.851Z
+publishedAt: 2025-10-15T03:15:42.851Z
+isPublic: true
+locales:
+  zh:
+    backgroundColor: ""
+    style:
+      maxWidth: custom:1440px
+      paddingY: normal
+      paddingX: normal
+    title: MIT 许可证 - Uptime Kuma
+    description: Uptime Kuma 是根据 MIT 许可证分发的开源软件。阅读完整的许可证，了解有关权限和限制的详细信息。
+    image: ""
+    header:
+      sticky: true
+sections:
+  c1a363268b47d70a:
+    id: c1a363268b47d70a
+    name: Split Hero_2
+    component: layout-block
+    sections:
+      3df2360f8b62087b:
+        id: 3df2360f8b62087b
+        name: CTA
+        component: layout-block
+        sections:
+          baa1a11b0afb9cd6:
+            id: baa1a11b0afb9cd6
+            name: Description
+            component: custom-component
+            config:
+              useCache: true
+              componentId: xoHu0J44322kDYc-
+            sectionIds: []
+          e7e5534f37d6aa1c:
+            id: e7e5534f37d6aa1c
+            name: Section Layout
+            component: layout-block
+            sections:
+              8bf4363f8d1d08a7:
+                id: 8bf4363f8d1d08a7
+                name: Code
+                component: custom-component
+                config:
+                  useCache: true
+                  componentId: 2EHGy3vwxlS9JGr2
+                sectionIds: []
+            sectionIds:
+              - 8bf4363f8d1d08a7
+            config:
+              gridSettings:
+                desktop:
+                  8bf4363f8d1d08a7:
+                    x: 0
+                    y: 0
+                    w: 12
+                    h: 1
+              border: terminal
+              borderRadius: small
+        sectionIds:
+          - baa1a11b0afb9cd6
+          - e7e5534f37d6aa1c
+        config:
+          gridSettings:
+            desktop:
+              baa1a11b0afb9cd6:
+                x: 0
+                y: 0
+                w: 12
+                h: 1
+              e7e5534f37d6aa1c:
+                x: 0
+                y: 1
+                w: 12
+                h: 1
+          paddingY: normal
+          gap: normal
+          maxWidth: full
+    sectionIds:
+      - 3df2360f8b62087b
+    config:
+      gridSettings:
+        desktop:
+          3df2360f8b62087b:
+            x: 0
+            y: 0
+            w: 6
+            h: 1
+      paddingX: none
+      paddingY: normal
+      maxWidth: full
+      backgroundFullWidth: true
+sectionIds:
+  - c1a363268b47d70a
+dataSource:
+  baa1a11b0afb9cd6:
+    zh:
+      properties:
+        v5utpm7bu9yvdpnq:
+          value: flex-start
+        kyg0hdy5uqq4gc1o:
+          value: flex-start
+        gs1rn5jmxfvpxptx:
+          value:
+            text: MIT 许可证
+            style:
+              variant: h1
+        9ajrz12ik7esfk1z:
+          value:
+            list:
+              - id: item-1759364500601-4gbj76l4x
+                type: text
+                text: Uptime Kuma 是自由开源软件，根据以下 MIT 许可证的条款进行分发。这赋予了您广泛的使用、修改和分发自由，确保项目保持开放和协作。
+                style:
+                  color: ""
+                  fontSize: 16px
+                  variant: body1
+  8bf4363f8d1d08a7:
+    zh:
+      properties:
+        a7frn5jmx5vpxpt3:
+          value: >-
+            MIT License
+
+
+            Copyright (c) 2021 Louis Lam
+
+
+            Permission is hereby granted, free of charge, to any person
+            obtaining a copy
+
+            of this software and associated documentation files (the
+            "Software"), to deal
+
+            in the Software without restriction, including without limitation
+            the rights
+
+            to use, copy, modify, merge, publish, distribute, sublicense, and/or
+            sell
+
+            copies of the Software, and to permit persons to whom the Software
+            is
+
+            furnished to do so, subject to the following conditions:
+
+
+            The above copyright notice and this permission notice shall be
+            included in all
+
+            copies or substantial portions of the Software.
+
+
+            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+            EXPRESS OR
+
+            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+            MERCHANTABILITY,
+
+            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+            SHALL THE
+
+            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+            OTHER
+
+            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+            ARISING FROM,
+
+            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+            DEALINGS IN THE
+
+            SOFTWARE.
+        qvxiyadgn5bj6oq8:
+          value: false
+        c4kvf6b7zyskk8m:
+          value: false
+        b2jrz12ik7esf93z:
+          value: LICENSE
+        7mp2u9tibl03thp6:
+          value: shell
+        d8hvf7cxz93jk5p:
+          value: 1rem

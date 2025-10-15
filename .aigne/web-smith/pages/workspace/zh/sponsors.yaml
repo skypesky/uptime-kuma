@@ -1,0 +1,27 @@
+meta:
+  title: "赞助商 | Uptime Kuma - 感谢您的支持！"
+  description: "衷心感谢赞助 Uptime Kuma 的个人和公司。您的支持让我们的开源监控工具保持活跃和蓬勃发展。"
+sections:
+  - sectionName: "sponsorsHero"
+    sectionSummary: "一个热情洋溢的英雄区，向赞助商表达诚挚的感谢，并为页面定下积极、温暖的基调。"
+    centeredHeroTitle: "致我们了不起的支持者：谢谢你们！"
+    centeredHeroDescription: "Uptime Kuma 因你们而蓬勃发展！是你们的慷慨支持，让我们能够持续构建、改进并向所有人免费提供这款强大的监控工具。你们就是我们前进的动力！"
+    centeredHeroActions:
+      - text: "成为赞助商"
+        link: "https://github.com/sponsors/louislam"
+      - text: ""
+        link: ""
+  - sectionName: "sponsorsWallOfFame"
+    sectionSummary: "展示包含所有当前赞助商标志的动态图片，作为一个‘荣誉墙’，公开鸣谢他们的支持。"
+    featureSectionTitle: "我们的荣誉墙"
+    featureSectionDescription: "我们为能得到这些杰出的个人和组织的支持而感到无比自豪。快来看看他们！"
+    featureSectionBottomImage: "https://uptime.kuma.pet/sponsors?v=6"
+  - sectionName: "becomeASponsorCta"
+    sectionSummary: "一个清晰的行动号召区域，邀请用户成为赞助商，并提供指向 GitHub 和 OpenCollective 的独立按钮，让支持变得简单直接。"
+    ctaTitle: "想在这里看到您的 Logo 吗？"
+    ctaDescription: "加入我们杰出的赞助商社区，帮助 Uptime Kuma 永远保持免费和开源。选择最适合您的平台，成为我们的一份子！"
+    cta:
+      - text: "通过 GitHub 赞助"
+        link: "https://github.com/sponsors/louislam"
+      - text: "支持 OpenCollective"
+        link: "https://opencollective.com/uptime-kuma"

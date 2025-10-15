@@ -1,0 +1,78 @@
+- title: "Uptime Kuma: Easy Self-Hosted Monitoring"
+  description: The official homepage for Uptime Kuma. Get a quick overview of the
+    tool, see its beautiful UI, try the live demo, and find out how to get
+    started with installation.
+  path: /home
+  navigation:
+    title: Home
+    description: Return to the homepage
+  sourceIds:
+    - README.md
+    - index.html
+    - public/manifest.json
+  parentId: ""
+- title: Features of Uptime Kuma
+  description: Discover the powerful features of Uptime Kuma, including
+    comprehensive monitoring for HTTP(s), TCP, DNS, and more. See the full list
+    of 90+ supported notification services and other capabilities.
+  path: /features
+  navigation:
+    title: Features
+    description: Explore all monitoring capabilities
+  sourceIds:
+    - README.md
+  parentId: ""
+- title: Installation Guide
+  description: Follow our step-by-step guides to install Uptime Kuma. Instructions
+    available for Docker (recommended) and non-Docker environments, including
+    requirements and background service setup.
+  path: /installation
+  navigation:
+    title: Installation
+    description: Learn how to install Uptime Kuma
+  sourceIds:
+    - README.md
+  parentId: ""
+- title: Community & Contributions
+  description: Join the Uptime Kuma community. Ask questions on our Subreddit,
+    report bugs or request features on GitHub, and learn how you can contribute
+    through pull requests, testing, or translations.
+  path: /community
+  navigation:
+    title: Community
+    description: Get help and contribute
+  sourceIds:
+    - README.md
+  parentId: ""
+- title: Sponsors
+  description: A heartfelt thank you to the individuals and companies who sponsor
+    the development of Uptime Kuma. Their support keeps the project active and
+    thriving.
+  path: /sponsors
+  navigation:
+    title: Sponsors
+    description: See our project supporters
+  sourceIds:
+    - README.md
+  parentId: ""
+- title: Security Policy
+  description: Review the security policy for Uptime Kuma. Find information on
+    supported versions and the proper procedure for reporting security
+    vulnerabilities.
+  path: /security
+  navigation:
+    title: Security
+    description: View our security policy
+  sourceIds:
+    - SECURITY.md
+  parentId: ""
+- title: License
+  description: Uptime Kuma is open-source software distributed under the MIT
+    License. Read the full license for details on permissions and limitations.
+  path: /license
+  navigation:
+    title: License
+    description: Read the software license
+  sourceIds:
+    - LICENSE
+  parentId: ""
