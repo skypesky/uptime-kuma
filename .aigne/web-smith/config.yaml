@@ -70,7 +70,7 @@ defaultDatasources:
 # minImageWidth: Only images wider than this value (in pixels) will be used in page generation
 media:
   minImageWidth: 800
-lastGitHead: e6ec324262e3d77801cd812bc1ed9e6c28d23d1e
+lastGitHead: 5108d33e1f2c2486c421f0c705589a46490236e0
 # Checkout ID for website deployment service
 # checkoutId: cs_kDmnPnwV4yMGaXgcaGuvSRjMWNlDMfCAQg2PUmPnKaz9VA140gUK1GT4mX
 translateLanguages:
@@ -82,3 +82,4 @@ paymentUrl: https://s.aigne.io/CncmR7y7
 appUrl: https://websmith.aigne.io
 # Checkout ID for website deployment service
 checkoutId: ""
+projectCover: .aigne/web-smith/cover.png

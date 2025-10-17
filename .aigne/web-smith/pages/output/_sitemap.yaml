@@ -52,9 +52,9 @@ sitemap:
     meta:
       file: home.yaml
       id: 616571b7c79a8472
-      createdAt: 2025-10-15T03:49:21.091Z
-      updatedAt: 2025-10-15T03:49:21.091Z
-      publishedAt: 2025-10-15T03:49:21.091Z
+      createdAt: 2025-10-17T08:54:18.947Z
+      updatedAt: 2025-10-17T08:54:18.947Z
+      publishedAt: 2025-10-17T08:54:18.947Z
       isPublic: true
   - title: Features of Uptime Kuma
     path: /features
@@ -112,9 +112,9 @@ sitemap:
     meta:
       file: features.yaml
       id: 69ee505620f7efd5
-      createdAt: 2025-10-15T03:49:21.077Z
-      updatedAt: 2025-10-15T03:49:21.077Z
-      publishedAt: 2025-10-15T03:49:21.077Z
+      createdAt: 2025-10-17T08:54:18.933Z
+      updatedAt: 2025-10-17T08:54:18.933Z
+      publishedAt: 2025-10-17T08:54:18.933Z
       isPublic: true
   - title: Installation Guide
     path: /installation
@@ -168,9 +168,9 @@ sitemap:
     meta:
       file: installation.yaml
       id: 8d5887e9ab6a37a8
-      createdAt: 2025-10-15T03:49:21.099Z
-      updatedAt: 2025-10-15T03:49:21.099Z
-      publishedAt: 2025-10-15T03:49:21.099Z
+      createdAt: 2025-10-17T08:54:18.953Z
+      updatedAt: 2025-10-17T08:54:18.953Z
+      publishedAt: 2025-10-17T08:54:18.953Z
       isPublic: true
   - title: Community & Contributions
     path: /community
@@ -227,9 +227,9 @@ sitemap:
     meta:
       file: community.yaml
       id: 423f8449a3d5581e
-      createdAt: 2025-10-15T03:49:21.065Z
-      updatedAt: 2025-10-15T03:49:21.065Z
-      publishedAt: 2025-10-15T03:49:21.065Z
+      createdAt: 2025-10-17T08:54:18.918Z
+      updatedAt: 2025-10-17T08:54:18.918Z
+      publishedAt: 2025-10-17T08:54:18.918Z
       isPublic: true
   - title: Sponsors
     path: /sponsors
@@ -280,9 +280,9 @@ sitemap:
     meta:
       file: sponsors.yaml
       id: dbb3bf7d4cbcc8d9
-      createdAt: 2025-10-15T03:49:21.114Z
-      updatedAt: 2025-10-15T03:49:21.114Z
-      publishedAt: 2025-10-15T03:49:21.114Z
+      createdAt: 2025-10-17T08:54:18.969Z
+      updatedAt: 2025-10-17T08:54:18.969Z
+      publishedAt: 2025-10-17T08:54:18.969Z
       isPublic: true
   - title: Security Policy
     path: /security
@@ -333,9 +333,9 @@ sitemap:
     meta:
       file: security.yaml
       id: 7da1e0bf8fb853a2
-      createdAt: 2025-10-15T03:49:21.106Z
-      updatedAt: 2025-10-15T03:49:21.106Z
-      publishedAt: 2025-10-15T03:49:21.106Z
+      createdAt: 2025-10-17T08:54:18.960Z
+      updatedAt: 2025-10-17T08:54:18.960Z
+      publishedAt: 2025-10-17T08:54:18.960Z
       isPublic: true
   - title: License
     path: /license
@@ -390,19 +390,19 @@ sitemap:
     meta:
       file: license.yaml
       id: 4c7d86ebe658d3af
-      createdAt: 2025-10-15T03:49:21.104Z
-      updatedAt: 2025-10-15T03:49:21.104Z
-      publishedAt: 2025-10-15T03:49:21.104Z
+      createdAt: 2025-10-17T08:54:18.958Z
+      updatedAt: 2025-10-17T08:54:18.958Z
+      publishedAt: 2025-10-17T08:54:18.958Z
       isPublic: true
 navigations:
-  - id: 659608d95616f9f2-header
+  - id: 3e9c90af94a10bd6-header
     section: header
     visible: true
     title:
-      en: uptime-kuma
-      zh: uptime-kuma
-      zh-TW: uptime-kuma
-      ja: uptime-kuma
+      en: Uptime Kuma
+      zh: Uptime Kuma
+      zh-TW: Uptime Kuma
+      ja: Uptime Kuma
     link:
       en: /en
       zh: /zh
@@ -410,14 +410,14 @@ navigations:
       ja: /ja
     description: ""
     parent: ""
-  - id: 659608d95616f9f2-footer
+  - id: 3e9c90af94a10bd6-footer
     section: footer
     visible: true
     title:
-      en: uptime-kuma
-      zh: uptime-kuma
-      zh-TW: uptime-kuma
-      ja: uptime-kuma
+      en: Uptime Kuma
+      zh: Uptime Kuma
+      zh-TW: Uptime Kuma
+      ja: Uptime Kuma
     link:
       en: /en
       zh: /zh
@@ -443,7 +443,7 @@ navigations:
       zh: Return to the homepage
       zh-TW: 返回首頁
       ja: ホームページに戻る
-    parent: 659608d95616f9f2-header
+    parent: 3e9c90af94a10bd6-header
   - id: f5c5d15c42b3cf01
     section: footer
     visible: true
@@ -462,7 +462,7 @@ navigations:
       zh: Return to the homepage
       zh-TW: 返回首頁
       ja: ホームページに戻る
-    parent: 659608d95616f9f2-footer
+    parent: 3e9c90af94a10bd6-footer
   - id: 9f034b63948763d4
     section: header
     visible: true
@@ -481,7 +481,7 @@ navigations:
       zh: Explore all monitoring capabilities
       zh-TW: 探索所有監控功能
       ja: すべての監視機能を見る
-    parent: 659608d95616f9f2-header
+    parent: 3e9c90af94a10bd6-header
   - id: 81f6d8ee2c5e662e
     section: footer
     visible: true
@@ -500,7 +500,7 @@ navigations:
       zh: Explore all monitoring capabilities
       zh-TW: 探索所有監控功能
       ja: すべての監視機能を見る
-    parent: 659608d95616f9f2-footer
+    parent: 3e9c90af94a10bd6-footer
   - id: ea09bb364ef1bffd
     section: header
     visible: true
@@ -519,7 +519,7 @@ navigations:
       zh: Learn how to install Uptime Kuma
       zh-TW: 學習如何安裝 Uptime Kuma
       ja: Uptime Kumaのインストール方法
-    parent: 659608d95616f9f2-header
+    parent: 3e9c90af94a10bd6-header
   - id: c74d761d586eab98
     section: footer
     visible: true
@@ -538,7 +538,7 @@ navigations:
       zh: Learn how to install Uptime Kuma
       zh-TW: 學習如何安裝 Uptime Kuma
       ja: Uptime Kumaのインストール方法
-    parent: 659608d95616f9f2-footer
+    parent: 3e9c90af94a10bd6-footer
   - id: 82df41632da47606
     section: header
     visible: true
@@ -557,7 +557,7 @@ navigations:
       zh: Get help and contribute
       zh-TW: 獲取幫助並做出貢獻
       ja: ヘルプと貢献
-    parent: 659608d95616f9f2-header
+    parent: 3e9c90af94a10bd6-header
   - id: 3ee47fddc2f753a3
     section: footer
     visible: true
@@ -576,7 +576,7 @@ navigations:
       zh: Get help and contribute
       zh-TW: 獲取幫助並做出貢獻
       ja: ヘルプと貢献
-    parent: 659608d95616f9f2-footer
+    parent: 3e9c90af94a10bd6-footer
   - id: 4cf2d30b6327df1b
     section: header
     visible: true
@@ -595,7 +595,7 @@ navigations:
       zh: See our project supporters
       zh-TW: 查看我們的專案支持者
       ja: プロジェクトの支援者を見る
-    parent: 659608d95616f9f2-header
+    parent: 3e9c90af94a10bd6-header
   - id: 086d16ae814bda45
     section: footer
     visible: true
@@ -614,7 +614,7 @@ navigations:
       zh: See our project supporters
       zh-TW: 查看我們的專案支持者
       ja: プロジェクトの支援者を見る
-    parent: 659608d95616f9f2-footer
+    parent: 3e9c90af94a10bd6-footer
   - id: e91e6348157868de
     section: header
     visible: true
@@ -633,7 +633,7 @@ navigations:
       zh: View our security policy
       zh-TW: 查看我們的安全政策
       ja: セキュリティポリシーを見る
-    parent: 659608d95616f9f2-header
+    parent: 3e9c90af94a10bd6-header
   - id: 3692a0b94b9f98f2
     section: footer
     visible: true
@@ -652,7 +652,7 @@ navigations:
       zh: View our security policy
       zh-TW: 查看我們的安全政策
       ja: セキュリティポリシーを見る
-    parent: 659608d95616f9f2-footer
+    parent: 3e9c90af94a10bd6-footer
   - id: 718779752b851ac0
     section: header
     visible: true
@@ -671,7 +671,7 @@ navigations:
       zh: Read the software license
       zh-TW: 閱讀軟體授權條款
       ja: ソフトウェアライセンスを読む
-    parent: 659608d95616f9f2-header
+    parent: 3e9c90af94a10bd6-header
   - id: d6be7118c815f73c
     section: footer
     visible: true
@@ -690,4 +690,4 @@ navigations:
       zh: Read the software license
       zh-TW: 閱讀軟體授權條款
       ja: ソフトウェアライセンスを読む
-    parent: 659608d95616f9f2-footer
+    parent: 3e9c90af94a10bd6-footer

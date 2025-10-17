@@ -1,7 +1,7 @@
 id: 7da1e0bf8fb853a2
-createdAt: 2025-10-15T03:49:21.106Z
-updatedAt: 2025-10-15T03:49:21.106Z
-publishedAt: 2025-10-15T03:49:21.106Z
+createdAt: 2025-10-17T08:54:18.960Z
+updatedAt: 2025-10-17T08:54:18.960Z
+publishedAt: 2025-10-17T08:54:18.960Z
 isPublic: true
 locales:
   en:
@@ -1224,7 +1224,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/security/advisories/new
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -1244,7 +1244,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/security/advisories/new
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -1264,7 +1264,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/security/advisories/new
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -1284,7 +1284,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/security/advisories/new
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -1441,7 +1441,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/security/advisories/new
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -1463,7 +1463,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/security/advisories/new
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -1485,7 +1485,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/security/advisories/new
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -1507,7 +1507,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/security/advisories/new
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -1622,7 +1622,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/issues/new?assignees=&labels=help&template=security.md
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -1644,7 +1644,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/issues/new?assignees=&labels=help&template=security.md
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -1666,7 +1666,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/issues/new?assignees=&labels=help&template=security.md
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -1688,7 +1688,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/issues/new?assignees=&labels=help&template=security.md
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""

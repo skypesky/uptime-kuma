@@ -1,7 +1,7 @@
 id: dbb3bf7d4cbcc8d9
-createdAt: 2025-10-15T03:49:21.114Z
-updatedAt: 2025-10-15T03:49:21.114Z
-publishedAt: 2025-10-15T03:49:21.114Z
+createdAt: 2025-10-17T08:54:18.969Z
+updatedAt: 2025-10-17T08:54:18.969Z
+publishedAt: 2025-10-17T08:54:18.969Z
 isPublic: true
 locales:
   en:
@@ -412,7 +412,7 @@ dataSource:
               url: https://github.com/sponsors/louislam
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -432,7 +432,7 @@ dataSource:
               url: https://github.com/sponsors/louislam
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -452,7 +452,7 @@ dataSource:
               url: https://github.com/sponsors/louislam
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -472,7 +472,7 @@ dataSource:
               url: https://github.com/sponsors/louislam
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -749,7 +749,7 @@ dataSource:
               url: https://github.com/sponsors/louislam
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: Support on OpenCollective
@@ -771,7 +771,7 @@ dataSource:
               url: https://github.com/sponsors/louislam
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: 支持 OpenCollective
@@ -793,7 +793,7 @@ dataSource:
               url: https://github.com/sponsors/louislam
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: 支持 OpenCollective
@@ -815,7 +815,7 @@ dataSource:
               url: https://github.com/sponsors/louislam
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: OpenCollectiveで支援する

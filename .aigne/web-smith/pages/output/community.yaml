@@ -1,7 +1,7 @@
 id: 423f8449a3d5581e
-createdAt: 2025-10-15T03:49:21.065Z
-updatedAt: 2025-10-15T03:49:21.065Z
-publishedAt: 2025-10-15T03:49:21.065Z
+createdAt: 2025-10-17T08:54:18.918Z
+updatedAt: 2025-10-17T08:54:18.918Z
+publishedAt: 2025-10-17T08:54:18.918Z
 isPublic: true
 locales:
   en:
@@ -869,7 +869,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/issues
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: Visit the Reddit Community
@@ -889,7 +889,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/issues
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: 访问 Reddit 社区
@@ -909,7 +909,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/issues
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: 前往 Reddit 社群
@@ -929,7 +929,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/issues
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: Redditコミュニティにアクセス
@@ -1471,9 +1471,9 @@ dataSource:
             style:
               variant: h2
         v5utpm7bu9yvdpnq:
-          value: flex-start
+          value: center
         kyg0hdy5uqq4gc1o:
-          value: flex-start
+          value: center
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -1482,9 +1482,9 @@ dataSource:
             style:
               variant: h2
         v5utpm7bu9yvdpnq:
-          value: flex-start
+          value: center
         kyg0hdy5uqq4gc1o:
-          value: flex-start
+          value: center
     zh-TW:
       properties:
         gs1rn5jmxfvpxptx:
@@ -1493,9 +1493,9 @@ dataSource:
             style:
               variant: h2
         v5utpm7bu9yvdpnq:
-          value: flex-start
+          value: center
         kyg0hdy5uqq4gc1o:
-          value: flex-start
+          value: center
     ja:
       properties:
         gs1rn5jmxfvpxptx:
@@ -1504,9 +1504,9 @@ dataSource:
             style:
               variant: h2
         v5utpm7bu9yvdpnq:
-          value: flex-start
+          value: center
         kyg0hdy5uqq4gc1o:
-          value: flex-start
+          value: center
   9a522e0551bad6e3:
     en:
       properties:
@@ -1878,7 +1878,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -1900,7 +1900,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -1922,7 +1922,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -1944,7 +1944,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""

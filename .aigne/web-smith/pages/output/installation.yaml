@@ -1,7 +1,7 @@
 id: 8d5887e9ab6a37a8
-createdAt: 2025-10-15T03:49:21.099Z
-updatedAt: 2025-10-15T03:49:21.099Z
-publishedAt: 2025-10-15T03:49:21.099Z
+createdAt: 2025-10-17T08:54:18.953Z
+updatedAt: 2025-10-17T08:54:18.953Z
+publishedAt: 2025-10-17T08:54:18.953Z
 isPublic: true
 locales:
   en:
@@ -1450,7 +1450,7 @@ dataSource:
               url: link:///community
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -1472,7 +1472,7 @@ dataSource:
               url: link:///community
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -1494,7 +1494,7 @@ dataSource:
               url: link:///community
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -1516,7 +1516,7 @@ dataSource:
               url: link:///community
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""

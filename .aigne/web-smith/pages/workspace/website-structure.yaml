@@ -6,11 +6,10 @@
   navigation:
     title: Home
     description: Return to the homepage
+  parentId: ""
   sourceIds:
     - README.md
     - index.html
-    - public/manifest.json
-  parentId: ""
 - title: Features of Uptime Kuma
   description: Discover the powerful features of Uptime Kuma, including
     comprehensive monitoring for HTTP(s), TCP, DNS, and more. See the full list
@@ -19,9 +18,9 @@
   navigation:
     title: Features
     description: Explore all monitoring capabilities
+  parentId: ""
   sourceIds:
     - README.md
-  parentId: ""
 - title: Installation Guide
   description: Follow our step-by-step guides to install Uptime Kuma. Instructions
     available for Docker (recommended) and non-Docker environments, including
@@ -30,9 +29,9 @@
   navigation:
     title: Installation
     description: Learn how to install Uptime Kuma
+  parentId: ""
   sourceIds:
     - README.md
-  parentId: ""
 - title: Community & Contributions
   description: Join the Uptime Kuma community. Ask questions on our Subreddit,
     report bugs or request features on GitHub, and learn how you can contribute
@@ -41,9 +40,9 @@
   navigation:
     title: Community
     description: Get help and contribute
+  parentId: ""
   sourceIds:
     - README.md
-  parentId: ""
 - title: Sponsors
   description: A heartfelt thank you to the individuals and companies who sponsor
     the development of Uptime Kuma. Their support keeps the project active and
@@ -52,9 +51,9 @@
   navigation:
     title: Sponsors
     description: See our project supporters
+  parentId: ""
   sourceIds:
     - README.md
-  parentId: ""
 - title: Security Policy
   description: Review the security policy for Uptime Kuma. Find information on
     supported versions and the proper procedure for reporting security
@@ -63,9 +62,9 @@
   navigation:
     title: Security
     description: View our security policy
+  parentId: ""
   sourceIds:
     - SECURITY.md
-  parentId: ""
 - title: License
   description: Uptime Kuma is open-source software distributed under the MIT
     License. Read the full license for details on permissions and limitations.
@@ -73,6 +72,6 @@
   navigation:
     title: License
     description: Read the software license
+  parentId: ""
   sourceIds:
     - LICENSE
-  parentId: ""

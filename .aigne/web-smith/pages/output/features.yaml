@@ -1,7 +1,7 @@
 id: 69ee505620f7efd5
-createdAt: 2025-10-15T03:49:21.077Z
-updatedAt: 2025-10-15T03:49:21.077Z
-publishedAt: 2025-10-15T03:49:21.077Z
+createdAt: 2025-10-17T08:54:18.933Z
+updatedAt: 2025-10-17T08:54:18.933Z
+publishedAt: 2025-10-17T08:54:18.933Z
 isPublic: true
 locales:
   en:
@@ -1501,7 +1501,7 @@ dataSource:
               url: link:///installation
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: View on GitHub
@@ -1521,7 +1521,7 @@ dataSource:
               url: link:///installation
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: 在 GitHub 上查看
@@ -1541,7 +1541,7 @@ dataSource:
               url: link:///installation
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: 在 GitHub 上查看
@@ -1561,7 +1561,7 @@ dataSource:
               url: link:///installation
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: GitHubで見る
@@ -2430,7 +2430,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/tree/master/src/components/notifications
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -2454,7 +2454,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/tree/master/src/components/notifications
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -2478,7 +2478,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/tree/master/src/components/notifications
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -2502,7 +2502,7 @@ dataSource:
               url: https://github.com/louislam/uptime-kuma/tree/master/src/components/notifications
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: ""
@@ -2566,9 +2566,9 @@ dataSource:
             style:
               variant: h2
         v5utpm7bu9yvdpnq:
-          value: flex-start
+          value: center
         kyg0hdy5uqq4gc1o:
-          value: flex-start
+          value: center
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -2577,9 +2577,9 @@ dataSource:
             style:
               variant: h2
         v5utpm7bu9yvdpnq:
-          value: flex-start
+          value: center
         kyg0hdy5uqq4gc1o:
-          value: flex-start
+          value: center
     zh-TW:
       properties:
         gs1rn5jmxfvpxptx:
@@ -2588,9 +2588,9 @@ dataSource:
             style:
               variant: h2
         v5utpm7bu9yvdpnq:
-          value: flex-start
+          value: center
         kyg0hdy5uqq4gc1o:
-          value: flex-start
+          value: center
     ja:
       properties:
         gs1rn5jmxfvpxptx:
@@ -2599,9 +2599,9 @@ dataSource:
             style:
               variant: h2
         v5utpm7bu9yvdpnq:
-          value: flex-start
+          value: center
         kyg0hdy5uqq4gc1o:
-          value: flex-start
+          value: center
   188bf83f2774511b:
     en:
       properties:
@@ -3346,7 +3346,7 @@ dataSource:
               url: link:///installation
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: Join Our Community
@@ -3368,7 +3368,7 @@ dataSource:
               url: link:///installation
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: 加入我们的社区
@@ -3390,7 +3390,7 @@ dataSource:
               url: link:///installation
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: 加入我們的社群
@@ -3412,7 +3412,7 @@ dataSource:
               url: link:///installation
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: コミュニティに参加する

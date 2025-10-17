@@ -1,7 +1,7 @@
 id: 616571b7c79a8472
-createdAt: 2025-10-15T03:49:21.091Z
-updatedAt: 2025-10-15T03:49:21.091Z
-publishedAt: 2025-10-15T03:49:21.091Z
+createdAt: 2025-10-17T08:54:18.947Z
+updatedAt: 2025-10-17T08:54:18.947Z
+publishedAt: 2025-10-17T08:54:18.947Z
 isPublic: true
 locales:
   en:
@@ -946,7 +946,7 @@ dataSource:
               url: https://demo.kuma.pet/start-demo
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: Quick Install
@@ -970,7 +970,7 @@ dataSource:
               url: https://demo.kuma.pet/start-demo
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: 快速安装
@@ -994,7 +994,7 @@ dataSource:
               url: https://demo.kuma.pet/start-demo
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: 快速安裝
@@ -1018,7 +1018,7 @@ dataSource:
               url: https://demo.kuma.pet/start-demo
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: クイックインストール
@@ -1633,9 +1633,9 @@ dataSource:
             style:
               variant: h2
         v5utpm7bu9yvdpnq:
-          value: flex-start
+          value: center
         kyg0hdy5uqq4gc1o:
-          value: flex-start
+          value: center
     zh:
       properties:
         gs1rn5jmxfvpxptx:
@@ -1644,9 +1644,9 @@ dataSource:
             style:
               variant: h2
         v5utpm7bu9yvdpnq:
-          value: flex-start
+          value: center
         kyg0hdy5uqq4gc1o:
-          value: flex-start
+          value: center
     zh-TW:
       properties:
         gs1rn5jmxfvpxptx:
@@ -1655,9 +1655,9 @@ dataSource:
             style:
               variant: h2
         v5utpm7bu9yvdpnq:
-          value: flex-start
+          value: center
         kyg0hdy5uqq4gc1o:
-          value: flex-start
+          value: center
     ja:
       properties:
         gs1rn5jmxfvpxptx:
@@ -1666,9 +1666,9 @@ dataSource:
             style:
               variant: h2
         v5utpm7bu9yvdpnq:
-          value: flex-start
+          value: center
         kyg0hdy5uqq4gc1o:
-          value: flex-start
+          value: center
   d1218989b9b5e72e:
     en:
       properties:
@@ -2211,7 +2211,7 @@ dataSource:
               url: https://demo.kuma.pet/start-demo
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: View on GitHub
@@ -2233,7 +2233,7 @@ dataSource:
               url: https://demo.kuma.pet/start-demo
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: 查看 GitHub
@@ -2255,7 +2255,7 @@ dataSource:
               url: https://demo.kuma.pet/start-demo
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: 查看 GitHub
@@ -2277,7 +2277,7 @@ dataSource:
               url: https://demo.kuma.pet/start-demo
               variant: contained
               size: large
-              target: _self
+              target: auto
               needLogin: false
             - id: btn-1759121436561-6r9xmg35x
               text: GitHubで見る
