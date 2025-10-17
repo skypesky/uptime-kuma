@@ -1,9 +1,9 @@
 # Project information for page publishing
 projectName: uptime-kuma
-projectDesc: A fancy self-hosted monitoring tool
-projectLogo: https://avatars.githubusercontent.com/u/33124160?v=4
-projectId: 9d624086-c126-458f-bf42-438cae7c3d42
-projectSlug: uptime-kuma
+projectDesc: Uptime Kuma is an easy-to-use self-hosted monitoring tool.
+projectLogo: https://github.com/louislam/uptime-kuma/blob/master/public/icon.svg
+projectId: pg4d0000-0000-4000-a000-000000000000
+projectSlug: /uptime-kuma/
 
 # =============================================================================
 # Website Configuration
@@ -56,23 +56,29 @@ locale: en
 # translateLanguages:  # List of languages to translate the pages to
 #   - zh  # Example: Chinese translation
 #   - en  # Example: English translation
-pagesDir: .aigne/web-smith/pages  # Directory to save generated pages
-sourcesPath:  # Source code paths to analyze
+pagesDir: .aigne/web-smith/pages # Directory to save generated pages
+sourcesPath:
+  # Source code paths to analyze
   - ./index.html
   - ./README.md
   - ./LICENSE
   - ./SECURITY.md
   - ./public
-defaultDatasources:  # Default datasources included in every page
+defaultDatasources:
+  # Default datasources included in every page
   - ./media.md
 # minImageWidth: Only images wider than this value (in pixels) will be used in page generation
 media:
   minImageWidth: 800
 lastGitHead: e6ec324262e3d77801cd812bc1ed9e6c28d23d1e
-appUrl: https://websmith.aigne.io
 # Checkout ID for website deployment service
-checkoutId: ""
+# checkoutId: cs_kDmnPnwV4yMGaXgcaGuvSRjMWNlDMfCAQg2PUmPnKaz9VA140gUK1GT4mX
 translateLanguages:
   - zh
   - zh-TW
   - ja
+# Payment URL for website deployment service
+paymentUrl: https://s.aigne.io/CncmR7y7
+appUrl: https://websmith.aigne.io
+# Checkout ID for website deployment service
+checkoutId: ""
