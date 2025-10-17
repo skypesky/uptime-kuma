@@ -52,9 +52,9 @@ sitemap:
     meta:
       file: home.yaml
       id: 616571b7c79a8472
-      createdAt: 2025-10-17T08:54:18.947Z
-      updatedAt: 2025-10-17T08:54:18.947Z
-      publishedAt: 2025-10-17T08:54:18.947Z
+      createdAt: 2025-10-17T08:57:02.668Z
+      updatedAt: 2025-10-17T08:57:02.668Z
+      publishedAt: 2025-10-17T08:57:02.668Z
       isPublic: true
   - title: Features of Uptime Kuma
     path: /features
@@ -112,9 +112,9 @@ sitemap:
     meta:
       file: features.yaml
       id: 69ee505620f7efd5
-      createdAt: 2025-10-17T08:54:18.933Z
-      updatedAt: 2025-10-17T08:54:18.933Z
-      publishedAt: 2025-10-17T08:54:18.933Z
+      createdAt: 2025-10-17T08:57:02.652Z
+      updatedAt: 2025-10-17T08:57:02.652Z
+      publishedAt: 2025-10-17T08:57:02.652Z
       isPublic: true
   - title: Installation Guide
     path: /installation
@@ -168,9 +168,9 @@ sitemap:
     meta:
       file: installation.yaml
       id: 8d5887e9ab6a37a8
-      createdAt: 2025-10-17T08:54:18.953Z
-      updatedAt: 2025-10-17T08:54:18.953Z
-      publishedAt: 2025-10-17T08:54:18.953Z
+      createdAt: 2025-10-17T08:57:02.676Z
+      updatedAt: 2025-10-17T08:57:02.676Z
+      publishedAt: 2025-10-17T08:57:02.676Z
       isPublic: true
   - title: Community & Contributions
     path: /community
@@ -227,9 +227,9 @@ sitemap:
     meta:
       file: community.yaml
       id: 423f8449a3d5581e
-      createdAt: 2025-10-17T08:54:18.918Z
-      updatedAt: 2025-10-17T08:54:18.918Z
-      publishedAt: 2025-10-17T08:54:18.918Z
+      createdAt: 2025-10-17T08:57:02.637Z
+      updatedAt: 2025-10-17T08:57:02.637Z
+      publishedAt: 2025-10-17T08:57:02.637Z
       isPublic: true
   - title: Sponsors
     path: /sponsors
@@ -280,9 +280,9 @@ sitemap:
     meta:
       file: sponsors.yaml
       id: dbb3bf7d4cbcc8d9
-      createdAt: 2025-10-17T08:54:18.969Z
-      updatedAt: 2025-10-17T08:54:18.969Z
-      publishedAt: 2025-10-17T08:54:18.969Z
+      createdAt: 2025-10-17T08:57:02.692Z
+      updatedAt: 2025-10-17T08:57:02.692Z
+      publishedAt: 2025-10-17T08:57:02.692Z
       isPublic: true
   - title: Security Policy
     path: /security
@@ -333,9 +333,9 @@ sitemap:
     meta:
       file: security.yaml
       id: 7da1e0bf8fb853a2
-      createdAt: 2025-10-17T08:54:18.960Z
-      updatedAt: 2025-10-17T08:54:18.960Z
-      publishedAt: 2025-10-17T08:54:18.960Z
+      createdAt: 2025-10-17T08:57:02.682Z
+      updatedAt: 2025-10-17T08:57:02.682Z
+      publishedAt: 2025-10-17T08:57:02.682Z
       isPublic: true
   - title: License
     path: /license
@@ -390,9 +390,9 @@ sitemap:
     meta:
       file: license.yaml
       id: 4c7d86ebe658d3af
-      createdAt: 2025-10-17T08:54:18.958Z
-      updatedAt: 2025-10-17T08:54:18.958Z
-      publishedAt: 2025-10-17T08:54:18.958Z
+      createdAt: 2025-10-17T08:57:02.681Z
+      updatedAt: 2025-10-17T08:57:02.681Z
+      publishedAt: 2025-10-17T08:57:02.681Z
       isPublic: true
 navigations:
   - id: 3e9c90af94a10bd6-header

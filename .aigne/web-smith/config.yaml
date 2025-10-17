@@ -70,7 +70,7 @@ defaultDatasources:
 # minImageWidth: Only images wider than this value (in pixels) will be used in page generation
 media:
   minImageWidth: 800
-lastGitHead: 5108d33e1f2c2486c421f0c705589a46490236e0
+lastGitHead: d3778a8150df3805a7a2d4d60ae70a54472f5742
 # Checkout ID for website deployment service
 # checkoutId: cs_kDmnPnwV4yMGaXgcaGuvSRjMWNlDMfCAQg2PUmPnKaz9VA140gUK1GT4mX
 translateLanguages:
