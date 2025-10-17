@@ -1,7 +1,7 @@
 # Project information for page publishing
 projectName: uptime-kuma
 projectDesc: Uptime Kuma is an easy-to-use self-hosted monitoring tool.
-projectLogo: https://github.com/louislam/uptime-kuma/blob/master/public/icon.svg
+projectLogo: https://raw.githubusercontent.com/louislam/uptime-kuma/5f650aef58fb97cfee1106e44802cc8ff7fcb65d/public/icon.svg
 projectId: 9d624086-c126-458f-bf42-438cae7c3d42
 projectSlug: /uptime-kuma-shns
 
